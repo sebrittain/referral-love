@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Website:</b>
+  <%= @referral_candidate.website %>
+</p>
+
+<p>
+  <b>Referral code:</b>
+  <%= @referral_candidate.referral_code %>
+</p>
+
+<p>
+  <b>Num reports:</b>
+  <%= @referral_candidate.num_reports %>
+</p>
+
+<p>
+  <b>Times used:</b>
+  <%= @referral_candidate.times_used %>
+</p>
+
+
+<%= link_to 'Edit', edit_referral_candidate_path(@referral_candidate) %> |
+<%= link_to 'Back', referral_candidates_path %>

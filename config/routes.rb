@@ -1,4 +1,6 @@
 ReferralLove::Application.routes.draw do
+  resources :referral_candidates
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

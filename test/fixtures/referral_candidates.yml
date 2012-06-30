@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  website: MyString
+  referral_code: MyString
+  num_reports: MyString
+  times_used: MyString
+
+two:
+  website: MyString
+  referral_code: MyString
+  num_reports: MyString
+  times_used: MyString

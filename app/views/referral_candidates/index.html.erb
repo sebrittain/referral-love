@@ -1,0 +1,29 @@
+<h1>Listing referral_candidates</h1>
+
+<table>
+  <tr>
+    <th>Website</th>
+    <th>Referral code</th>
+    <th>Num reports</th>
+    <th>Times used</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @referral_candidates.each do |referral_candidate| %>
+  <tr>
+    <td><%= referral_candidate.website %></td>
+    <td><%= referral_candidate.referral_code %></td>
+    <td><%= referral_candidate.num_reports %></td>
+    <td><%= referral_candidate.times_used %></td>
+    <td><%= link_to 'Show', referral_candidate %></td>
+    <td><%= link_to 'Edit', edit_referral_candidate_path(referral_candidate) %></td>
+    <td><%= link_to 'Destroy', referral_candidate, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Referral candidate', new_referral_candidate_path %>
