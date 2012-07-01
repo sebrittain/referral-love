@@ -1,2 +1,93 @@
-<h1>Users#new</h1>
-<p>Find me in app/views/users/new.html.erb</p>
+<% @include_jquery = true %>
+<h1>"Sign up" </h1>
+<body>
+<%yield%>
+<%= form_for(@user) do |f| %>
+<div class = "form">
+
+
+ 
+  <p><b>First Name</b><br/>
+  <%= f.text_field :name %></p>
+  <p><b>Email</b><br/>
+  <%= f.email_field :email %></p>
+  <p><b>Password</b><br/>
+  <%= f.password_field :password %></p>
+    <div id="pswd_info" >
+      <h4>Password must meet the following requirements:</h4>
+      <u1>
+          <li id ="letter" class="invalid">At least <strong>one letter</strong></li>
+          <li id="number" class ="invalid">At least <strong>one number</strong></li>
+          <li id="length" class="invalid">At least <strong>8 characters</strong></li>
+       </u1>
+  </div>
+  <p><b>Password Confirmation</b><br/>
+  <%= f.password_field :password_confirmation %></p>
+
+  <% if @enable_recaptcha %>
+  <p><%= recaptcha_tags :ssl => true %></p>
+  <% end %>
+
+  <%= check_box_tag(:agreement_checkbox) %> 
+  I have read the User Agreement
+  and I agree to be bound by its terms.
+
+  <p><%= f.submit "Sign up"%></p>
+
+<% end %>
+
+<br/>
+
+
+<%# JS to enable/disable the submit button dependent on if the agree checkbox is checked %>
+<% content_for :javascript do %>
+<%= javascript_tag do %>
+var len = false;
+var letter = false;
+var number = false;
+$('#agreement_checkbox').live('click', function() {
+   if ($('#agreement_checkbox').is(':checked') & (len == true)& (letter == true) & (number == true)){
+        $('#register_submit').removeAttr('disabled');
+        $('#register_submit').removeClass('ui-state-disabled');
+        
+   }
+   else {
+      $('#register_submit').attr('disabled', 'disabled');
+      $('#register_submit').addClass('ui-state-disabled');
+   }
+});
+$('input[type=password]').keyup(function(){
+      //set password variable
+      var pswd = $(this).val();
+
+      //validate the length
+      if (pswd.length < 8) {
+          $('#length').removeClass('valid').addClass('invalid');
+          len = false;
+      } else {
+          $('#length').removeClass('invalid').addClass('valid'); 
+          len = true;
+       }
+      //validate letter
+      if (pswd.match(/[A-z]/)){
+          $('#letter').removeClass('invalid').addClass('valid');
+          letter = true;
+      } else {
+          $('#letter').removeClass('valid').addClass('invalid');
+          letter = false;
+      }
+      //validate number
+      if (pswd.match(/\d/)){
+          $('#number').removeClass('invalid').addClass('valid');
+          number = true;
+      } else {
+          $('#number').removeClass('valid').addClass('invalid');
+          number = false;
+      }
+}).focus(function(){
+    $('#pswd_info').show();
+}).blur(function(){
+    $('#pswd_info').hide();
+});
+<% end %>
+<% end %>
