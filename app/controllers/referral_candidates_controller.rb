@@ -2,7 +2,7 @@ class ReferralCandidatesController < ApplicationController
   # GET /referral_candidates
   # GET /referral_candidates.json
   def index
-    @referral_candidates = ReferralCandidate.all
+    @referral_candidates = ReferralCandidate.order("times_used")
 
     respond_to do |format|
       format.html # index.html.erb
