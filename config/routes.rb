@@ -2,16 +2,18 @@ ReferralLove::Application.routes.draw do
   get "static_pages/home"
   get "static_pages/successful"
   get "static_pages/help"
+  get "codes/display"
 
   resources :users
   resources :referral_recipients
   resources :referral_candidates
   resources :sessions, only: [:new, :create, :destroy]
+  resources :codes, only: [:new, :create]
 
   root to: 'static_pages#home'
 
   match '/signup', to: 'users#new'
-  match '/give', to: 'referral_recipients#new'
+  match '/grab', to: 'referral_recipients#new'
   match '/register_code', to: 'referral_candidates#new'
   match '/login', to: 'sessions#new'
 

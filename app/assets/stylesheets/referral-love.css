@@ -3,8 +3,11 @@
   author: luka cvrk (www.solucija.com)
 */
 
+
+
+
 *{ margin: 0; padding: 0; }*
-body { margin: 50px 0 0; background: #fff url("/assets/bg.gif") repeat-x; font: .74em "Trebuchet MS", Arial, Sans-Serif; color: #444; }
+/*body { margin: 50px 0 0; background: #fff url("/assets/bg.gif") repeat-x; font: .74em "Trebuchet MS", Arial, Sans-Serif; color: #444; }*/
   h1 { font-size: 3em; font-weight: normal; float: left; }
   h1 a { text-decoration: none; }
   h2 { font-size: 2.5em; color: #152170; font-weight: normal; margin: 0 0 .8em; }
@@ -29,6 +32,33 @@ body { margin: 50px 0 0; background: #fff url("/assets/bg.gif") repeat-x; font: 
   .box { float: left; padding: 66px 0 0; width: 480px; color: #C7E3EE; }
   /*#image { float: right; width: 388px; position: relative; top: 16px; background: url("/assets/logotype.jpg") no-repeat top right; height: 258px; }
   */
+
+  .nav {
+  width: 100%;
+  float: left;
+  margin: 0 0 3em 0;
+  padding: 0px;
+  list-style: none;
+  background-color: #1C1C1C;
+  border-bottom: 1px solid #616161; 
+  border-top: 1px solid #616161; 
+  top: -39px;}
+.nav li {
+  float: left;
+}
+.nav li a {
+    display: block;
+    padding: 8px 15px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #BDB7B7;
+    border-right: 1px solid #616161; }
+
+.nav li a:hover {
+  color: #152170;
+  background-color: #fff; 
+}
+
 .container
 {
 text-align:center;
@@ -45,7 +75,6 @@ background-image:url("/assets/divbox.jpg");
 text-align:left;
 padding:8px;
 }
-
 #bar { height: 40px; margin: 0 0 30px; padding: 8px 0 0 0; background: url("/assets/bar.gif") repeat-x; }
   .step { cursor: pointer; color: #FAFDDD; padding: 4px 0 0 11px; margin: 0 35px 0 0; font-size: 1.4em; float: left; text-align: center; background: url("/assets/step.gif") no-repeat; height: 30px; }
   .step a { color: #fff; margin: 0 10px 0 0; }
@@ -57,3 +86,4 @@ padding:8px;
 #footer { background-position: bottom; clear: both; width: 900px; margin: 0 auto; padding: 15px; border-top: 1px solid #e0e0e0; background: #fff url("/assets/small_logotype.jpg") no-repeat right 13px; } 
   #footer .right { float: right; margin: 0 55px 0 0; }
   #footer a { color: #808080; font-weight: bold; }
+   

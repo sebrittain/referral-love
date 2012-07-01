@@ -1,0 +1,29 @@
+<div id="teaser">
+<div class="wrap">
+  <div id="image"></div>
+  <div class="box">
+    <h1>Grab Referral Code</h1>
+    <p></p>
+  </div>
+</div>
+</div>
+	<div id="bar">
+	<div class="wrap">
+	</div>
+</div>
+<div class="container">
+
+<%= form_for(:code, url: codes_path) do |f| %>
+  <div class="field" style="text-align:center">
+    <%= f.label :website %><br />
+    <%= f.text_field :website %>
+  </div>
+  
+    <div class="actions">
+      <div class="btn-custom">
+        <%= submit_tag("Get Referral Code") %>
+      </div>
+    </div>
+<% end %>
+
+</div>

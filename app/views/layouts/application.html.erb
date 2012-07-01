@@ -5,9 +5,17 @@
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
+
 </head>
 <body>
-	
+	<div class ="nav">
+		<li><a href="#">About Us</a></li>
+		<li><a href="#">Contact</a></li>
+		<li><a href="#">FAQs</a></li>
+		<li><a href="#">Help</a></li>
+		<li><a href="#">Login</a></li>
+		<li><a href="#">Sign Up</a></li>
+	</div>
 <%= yield %>
 <!-- 	<div class="wrap">
 		<div class="col">
@@ -24,6 +32,7 @@
 			<p class="info">If you liked this template, you might like some other Free CSS Templates from <a href="http://www.solucija.com" title="Awsome Web Templates">Solucija</a>.</p>
 		</div>
 	</div> -->
+
 	<div id="footer">
 		<p class="right">Design: Luka Cvrk, <a title="Awsome Web Templates" href="http://www.solucija.com/">Solucija</a></p>
 		<p>&copy; Copyright 2007 <a href="#">Web Application</a> &middot; All Rights Reserved</p>

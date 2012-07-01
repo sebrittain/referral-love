@@ -1,0 +1,15 @@
+<h1> Thank you for helping someone out! </h1>
+<br /><br /><br /><br />
+<p>
+  <b>Website:</b>
+  <%= @referral_candidate.website %>
+</p>
+
+<p>
+  <b>Referral code:</b>
+  <%= @referral_candidate.referral_code %>
+</p>
+
+<a>Invalid Code? </a><br /><br />
+
+<%= link_to 'Back', new_code_url %>
