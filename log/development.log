@@ -32415,3 +32415,73 @@ Served asset /application.js - 304 Not Modified (0ms)
 
 Started GET "/assets/signup.png" for 127.0.0.1 at 2012-07-01 07:42:40 -0500
 Served asset /signup.png - 304 Not Modified (0ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2012-07-01 09:46:13 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 130ms (Views: 130.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-01 09:46:14 -0500
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-07-01 09:46:14 -0500
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.css?body=1" for 127.0.0.1 at 2012-07-01 09:46:14 -0500
+Served asset /referral_candidates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-07-01 09:46:14 -0500
+Served asset /referral-love.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-07-01 09:46:14 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-07-01 09:46:14 -0500
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-07-01 09:46:14 -0500
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-01 09:46:14 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-01 09:46:14 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-07-01 09:46:15 -0500
+Served asset /referral_candidates.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-07-01 09:46:15 -0500
+Served asset /referral_recipients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-07-01 09:46:15 -0500
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-07-01 09:46:15 -0500
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-07-01 09:46:15 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-01 09:46:15 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/signup.png" for 127.0.0.1 at 2012-07-01 09:46:15 -0500
+Served asset /signup.png - 304 Not Modified (0ms)
