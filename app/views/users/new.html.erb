@@ -1,13 +1,14 @@
 <% @include_jquery = true %>
-<h1>"Sign up" </h1>
+
 <body>
+<h1>"Sign up" </h1>
 <%yield%>
 <%= form_for(@user) do |f| %>
 <div class = "form">
 
 
- 
-  <p><b>First Name</b><br/>
+ <br /><br />
+  <p><b>Name</b><br/>
   <%= f.text_field :name %></p>
   <p><b>Email</b><br/>
   <%= f.email_field :email %></p>

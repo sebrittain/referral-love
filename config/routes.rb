@@ -9,6 +9,12 @@ ReferralLove::Application.routes.draw do
 
   resources :referral_candidates
 
+  root to: 'static_pages#home'
+
+  match '/signup', to: 'users#new'
+  match '/give', to: 'referral_recipients#new'
+  match '/register_code', to: 'referral_candidates#new'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

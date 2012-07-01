@@ -1,0 +1,20 @@
+<% @include_jquery = true %>
+<body>
+  <h1>Thank you for signing up, <%= @user.name %>! </h1>
+<br /><br /><br /><br /><br />
+<div class="wrap">
+    <div class="col">
+      <h3>What's <span class="red">Next?</span></h3>
+    </div>
+    <div class="col">
+      <h3>Share some <span class="red">Love</span></h3>
+      <p>Help a bro out.  Get a signup referral code <%= link_to "here", new_referral_recipient_path %></p>
+    </div>  
+    <div class="col last">
+      <h3>Register your <span class="red">Codes</span></h3>
+      <p>Get added to the referral codes database.  Do this <%= link_to "here", new_referral_candidate_path %>.</p>
+    </div>
+  </div>
+<%yield%>
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+</body>

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120630232816) do
+ActiveRecord::Schema.define(:version => 20120701103309) do
 
   create_table "referral_candidates", :force => true do |t|
     t.string   "website"
@@ -27,6 +27,15 @@ ActiveRecord::Schema.define(:version => 20120630232816) do
     t.string   "referral_code"
     t.datetime "created_at",    :null => false
     t.datetime "updated_at",    :null => false
+  end
+
+  create_table "users", :force => true do |t|
+    t.string   "name"
+    t.string   "email"
+    t.datetime "created_at",            :null => false
+    t.datetime "updated_at",            :null => false
+    t.string   "password"
+    t.string   "password_confirmation"
   end
 
 end

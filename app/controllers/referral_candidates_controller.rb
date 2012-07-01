@@ -45,7 +45,7 @@ class ReferralCandidatesController < ApplicationController
 
     respond_to do |format|
       if @referral_candidate.save
-        format.html { redirect_to successful_path, notice: 'Referral candidate was successfully created.' }
+        format.html { redirect_to @referral_candidate, notice: 'Referral candidate was successfully created.' }
         format.json { render json: @referral_candidate, status: :created, location: @referral_candidate }
       else
         format.html { render action: "new" }
