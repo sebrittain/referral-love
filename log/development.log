@@ -3364,3 +3364,3463 @@ Served asset /referral_candidates.js - 304 Not Modified (1ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-30 17:06:11 -0500
 Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/referral_canidates" for 127.0.0.1 at 2012-06-30 17:12:28 -0500
+Connecting to database specified by database.yml
+
+ActionController::RoutingError (No route matches [GET] "/referral_canidates"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (34.0ms)
+
+
+Started GET "/referral_candidates" for 127.0.0.1 at 2012-06-30 17:12:46 -0500
+Processing by ReferralCandidatesController#index as HTML
+  [1m[36mReferralCandidate Load (1.0ms)[0m  [1mSELECT "referral_candidates".* FROM "referral_candidates" [0m
+  Rendered referral_candidates/index.html.erb within layouts/application (11.0ms)
+Compiled referral_candidates.css  (35ms)  (pid 12616)
+Compiled scaffolds.css  (30ms)  (pid 12616)
+Compiled referral-love.css  (0ms)  (pid 12616)
+Compiled application.css  (32ms)  (pid 12616)
+Compiled referral_candidates.js  (1283ms)  (pid 12616)
+Compiled application.js  (9ms)  (pid 12616)
+Completed 200 OK in 2489ms (Views: 2223.1ms | ActiveRecord: 24.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-30 17:12:49 -0500
+Served asset /application.css - 200 OK (15ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-06-30 17:12:49 -0500
+Served asset /referral-love.css - 200 OK (3ms)
+
+
+Started GET "/assets/referral_candidates.css?body=1" for 127.0.0.1 at 2012-06-30 17:12:49 -0500
+Served asset /referral_candidates.css - 200 OK (4ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-30 17:12:49 -0500
+Served asset /scaffolds.css - 200 OK (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-30 17:12:49 -0500
+Served asset /jquery.js - 200 OK (49ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-30 17:12:49 -0500
+Served asset /jquery_ujs.js - 200 OK (6ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-06-30 17:12:49 -0500
+Served asset /referral_candidates.js - 200 OK (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-30 17:12:49 -0500
+Served asset /application.js - 200 OK (18ms)
+
+
+Started GET "/referral_candidates/new" for 127.0.0.1 at 2012-06-30 17:13:00 -0500
+Processing by ReferralCandidatesController#new as HTML
+  Rendered referral_candidates/_form.html.erb (17.0ms)
+  Rendered referral_candidates/new.html.erb within layouts/application (344.0ms)
+Completed 200 OK in 408ms (Views: 407.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/referral_candidates/new" for 127.0.0.1 at 2012-06-30 17:14:21 -0500
+Processing by ReferralCandidatesController#new as HTML
+  Rendered referral_candidates/_form.html.erb (6.0ms)
+  Rendered referral_candidates/new.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 31ms (Views: 30.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/referral_candidates.css?body=1" for 127.0.0.1 at 2012-06-30 17:14:21 -0500
+Served asset /referral_candidates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-30 17:14:21 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-06-30 17:14:21 -0500
+Served asset /referral-love.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-30 17:14:21 -0500
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-30 17:14:22 -0500
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-30 17:14:22 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-06-30 17:14:22 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-30 17:14:22 -0500
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/referral_candidates" for 127.0.0.1 at 2012-06-30 17:14:26 -0500
+Processing by ReferralCandidatesController#index as HTML
+  [1m[35mReferralCandidate Load (1.0ms)[0m  SELECT "referral_candidates".* FROM "referral_candidates" 
+  Rendered referral_candidates/index.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 43ms (Views: 40.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-30 17:14:26 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-06-30 17:14:26 -0500
+Served asset /referral-love.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.css?body=1" for 127.0.0.1 at 2012-06-30 17:14:26 -0500
+Served asset /referral_candidates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-30 17:14:26 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-30 17:14:26 -0500
+Served asset /jquery.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-30 17:14:26 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-06-30 17:14:26 -0500
+Served asset /referral_candidates.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-30 17:14:27 -0500
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/referral_candidates/new" for 127.0.0.1 at 2012-06-30 17:14:29 -0500
+Processing by ReferralCandidatesController#new as HTML
+  Rendered referral_candidates/_form.html.erb (5.0ms)
+  Rendered referral_candidates/new.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 31ms (Views: 29.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-30 17:14:29 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-06-30 17:14:29 -0500
+Served asset /referral-love.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/referral_candidates.css?body=1" for 127.0.0.1 at 2012-06-30 17:14:29 -0500
+Served asset /referral_candidates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-30 17:14:29 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-30 17:14:29 -0500
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-30 17:14:29 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-06-30 17:14:29 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-30 17:14:29 -0500
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/referral_candidates" for 127.0.0.1 at 2012-06-30 17:44:13 -0500
+Processing by ReferralCandidatesController#index as HTML
+  [1m[36mReferralCandidate Load (0.0ms)[0m  [1mSELECT "referral_candidates".* FROM "referral_candidates" [0m
+  Rendered referral_candidates/index.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 31ms (Views: 28.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-30 17:44:13 -0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-30 17:44:13 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-06-30 17:44:13 -0500
+Served asset /referral-love.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/referral_candidates.css?body=1" for 127.0.0.1 at 2012-06-30 17:44:13 -0500
+Served asset /referral_candidates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-30 17:44:14 -0500
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-30 17:44:14 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-06-30 17:44:14 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-30 17:44:14 -0500
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/referral_candidates/new" for 127.0.0.1 at 2012-06-30 17:44:15 -0500
+Processing by ReferralCandidatesController#new as HTML
+  Rendered referral_candidates/_form.html.erb (4.0ms)
+  Rendered referral_candidates/new.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 26ms (Views: 25.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-06-30 17:44:16 -0500
+Served asset /referral-love.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.css?body=1" for 127.0.0.1 at 2012-06-30 17:44:16 -0500
+Served asset /referral_candidates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-30 17:44:16 -0500
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-30 17:44:16 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-30 17:44:16 -0500
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-30 17:44:16 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-06-30 17:44:16 -0500
+Served asset /referral_candidates.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-30 17:44:17 -0500
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/referral_candidates/1/edit" for 127.0.0.1 at 2012-06-30 17:44:22 -0500
+Processing by ReferralCandidatesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mReferralCandidate Load (1.0ms)[0m  SELECT "referral_candidates".* FROM "referral_candidates" WHERE "referral_candidates"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered referral_candidates/_form.html.erb (6.5ms)
+  Rendered referral_candidates/edit.html.erb within layouts/application (16.0ms)
+Completed 200 OK in 82ms (Views: 76.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/referral_candidates.css?body=1" for 127.0.0.1 at 2012-06-30 17:44:23 -0500
+Served asset /referral_candidates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-30 17:44:23 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-30 17:44:23 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-06-30 17:44:23 -0500
+Served asset /referral-love.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-30 17:44:23 -0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-30 17:44:23 -0500
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-06-30 17:44:23 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-30 17:44:23 -0500
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/referral_candidates/1/edit" for 127.0.0.1 at 2012-06-30 17:46:17 -0500
+Processing by ReferralCandidatesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mReferralCandidate Load (0.0ms)[0m  [1mSELECT "referral_candidates".* FROM "referral_candidates" WHERE "referral_candidates"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered referral_candidates/_form.html.erb (4.0ms)
+  Rendered referral_candidates/edit.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 31ms (Views: 29.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-30 17:46:17 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-30 17:46:17 -0500
+Served asset /jquery.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-06-30 17:46:17 -0500
+Served asset /referral-love.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-30 17:46:17 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/referral_candidates.css?body=1" for 127.0.0.1 at 2012-06-30 17:46:17 -0500
+Served asset /referral_candidates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-30 17:46:17 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-06-30 17:46:17 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-30 17:46:17 -0500
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started PUT "/referral_candidates/1" for 127.0.0.1 at 2012-06-30 17:47:11 -0500
+Processing by ReferralCandidatesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"e6v9BmU6ANcTpB5oVRltVZKH2daCf94RH/WmXT2wPCY=", "referral_candidate"=>{"website"=>"Groupon", "referral_code"=>"4JFD"}, "commit"=>"Update Referral candidate", "id"=>"1"}
+  [1m[35mReferralCandidate Load (0.0ms)[0m  SELECT "referral_candidates".* FROM "referral_candidates" WHERE "referral_candidates"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/referral_candidates/1
+Completed 302 Found in 9ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/referral_candidates/1" for 127.0.0.1 at 2012-06-30 17:47:11 -0500
+Processing by ReferralCandidatesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mReferralCandidate Load (0.0ms)[0m  [1mSELECT "referral_candidates".* FROM "referral_candidates" WHERE "referral_candidates"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered referral_candidates/show.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 31ms (Views: 28.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-06-30 17:47:12 -0500
+Served asset /referral-love.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-30 17:47:12 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.css?body=1" for 127.0.0.1 at 2012-06-30 17:47:12 -0500
+Served asset /referral_candidates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-30 17:47:12 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-30 17:47:12 -0500
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-30 17:47:12 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-30 17:47:12 -0500
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-06-30 17:47:12 -0500
+Served asset /referral_candidates.js - 304 Not Modified (1ms)
+
+
+Started GET "/referral_candidates/1/edit" for 127.0.0.1 at 2012-06-30 17:47:16 -0500
+Processing by ReferralCandidatesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mReferralCandidate Load (0.0ms)[0m  SELECT "referral_candidates".* FROM "referral_candidates" WHERE "referral_candidates"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered referral_candidates/_form.html.erb (5.0ms)
+  Rendered referral_candidates/edit.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 67ms (Views: 65.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-30 17:47:16 -0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-06-30 17:47:17 -0500
+Served asset /referral-love.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/referral_candidates.css?body=1" for 127.0.0.1 at 2012-06-30 17:47:17 -0500
+Served asset /referral_candidates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-30 17:47:17 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-30 17:47:17 -0500
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-30 17:47:17 -0500
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-06-30 17:47:17 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-30 17:47:17 -0500
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/referral_candidates/1/edit" for 127.0.0.1 at 2012-06-30 17:47:43 -0500
+Processing by ReferralCandidatesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mReferralCandidate Load (0.0ms)[0m  [1mSELECT "referral_candidates".* FROM "referral_candidates" WHERE "referral_candidates"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered referral_candidates/_form.html.erb (5.0ms)
+  Rendered referral_candidates/edit.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 29ms (Views: 27.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-30 17:47:43 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-30 17:47:43 -0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/referral_candidates.css?body=1" for 127.0.0.1 at 2012-06-30 17:47:43 -0500
+Served asset /referral_candidates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-06-30 17:47:43 -0500
+Served asset /referral-love.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-30 17:47:43 -0500
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-30 17:47:43 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-06-30 17:47:43 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-30 17:47:43 -0500
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/referral_candidates/1/edit" for 127.0.0.1 at 2012-06-30 17:48:04 -0500
+Processing by ReferralCandidatesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mReferralCandidate Load (0.0ms)[0m  SELECT "referral_candidates".* FROM "referral_candidates" WHERE "referral_candidates"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered referral_candidates/_form.html.erb (6.0ms)
+  Rendered referral_candidates/edit.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 34ms (Views: 31.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-30 17:48:04 -0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-30 17:48:04 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-06-30 17:48:04 -0500
+Served asset /referral-love.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.css?body=1" for 127.0.0.1 at 2012-06-30 17:48:04 -0500
+Served asset /referral_candidates.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-30 17:48:04 -0500
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-30 17:48:04 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-06-30 17:48:04 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-30 17:48:04 -0500
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/referral_candidates/1/edit" for 127.0.0.1 at 2012-06-30 17:48:27 -0500
+Processing by ReferralCandidatesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mReferralCandidate Load (0.0ms)[0m  [1mSELECT "referral_candidates".* FROM "referral_candidates" WHERE "referral_candidates"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered referral_candidates/_form.html.erb (4.0ms)
+  Rendered referral_candidates/edit.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 37ms (Views: 35.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-30 17:48:28 -0500
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-30 17:48:28 -0500
+Served asset /jquery.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/referral_candidates.css?body=1" for 127.0.0.1 at 2012-06-30 17:48:28 -0500
+Served asset /referral_candidates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-30 17:48:28 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-06-30 17:48:28 -0500
+Served asset /referral-love.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-30 17:48:28 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-06-30 17:48:28 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-30 17:48:28 -0500
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/referral_candidates/1/edit" for 127.0.0.1 at 2012-06-30 17:49:14 -0500
+Processing by ReferralCandidatesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mReferralCandidate Load (0.0ms)[0m  SELECT "referral_candidates".* FROM "referral_candidates" WHERE "referral_candidates"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered referral_candidates/_form.html.erb (5.0ms)
+  Rendered referral_candidates/edit.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 34ms (Views: 32.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-30 17:49:15 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-06-30 17:49:15 -0500
+Served asset /referral-love.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-30 17:49:15 -0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/referral_candidates.css?body=1" for 127.0.0.1 at 2012-06-30 17:49:15 -0500
+Served asset /referral_candidates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-30 17:49:15 -0500
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-30 17:49:15 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-06-30 17:49:15 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-30 17:49:15 -0500
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/referral_candidates/1/edit" for 127.0.0.1 at 2012-06-30 17:51:54 -0500
+Processing by ReferralCandidatesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mReferralCandidate Load (0.0ms)[0m  [1mSELECT "referral_candidates".* FROM "referral_candidates" WHERE "referral_candidates"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered referral_candidates/_form.html.erb (4.0ms)
+  Rendered referral_candidates/edit.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 33ms (Views: 31.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-06-30 17:51:54 -0500
+Served asset /referral-love.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-30 17:51:54 -0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/referral_candidates.css?body=1" for 127.0.0.1 at 2012-06-30 17:51:54 -0500
+Served asset /referral_candidates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-30 17:51:54 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-30 17:51:54 -0500
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-30 17:51:54 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-06-30 17:51:54 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-30 17:51:54 -0500
+Served asset /application.js - 304 Not Modified (43ms)
+
+
+Started GET "/referral_candidates/1" for 127.0.0.1 at 2012-06-30 17:51:57 -0500
+Processing by ReferralCandidatesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mReferralCandidate Load (0.0ms)[0m  SELECT "referral_candidates".* FROM "referral_candidates" WHERE "referral_candidates"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered referral_candidates/show.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 26ms (Views: 24.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-30 17:51:57 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-06-30 17:51:57 -0500
+Served asset /referral-love.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/referral_candidates.css?body=1" for 127.0.0.1 at 2012-06-30 17:51:57 -0500
+Served asset /referral_candidates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-30 17:51:57 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-30 17:51:57 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-30 17:51:57 -0500
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-06-30 17:51:57 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-30 17:51:57 -0500
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/referral_candidates/1/edit" for 127.0.0.1 at 2012-06-30 17:51:59 -0500
+Processing by ReferralCandidatesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mReferralCandidate Load (0.0ms)[0m  [1mSELECT "referral_candidates".* FROM "referral_candidates" WHERE "referral_candidates"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered referral_candidates/_form.html.erb (3.0ms)
+  Rendered referral_candidates/edit.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 27ms (Views: 25.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-30 17:51:59 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-06-30 17:52:00 -0500
+Served asset /referral-love.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-30 17:52:00 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.css?body=1" for 127.0.0.1 at 2012-06-30 17:52:00 -0500
+Served asset /referral_candidates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-30 17:52:00 -0500
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-30 17:52:00 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-06-30 17:52:00 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-30 17:52:00 -0500
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/referral_candidates/1/edit" for 127.0.0.1 at 2012-06-30 17:53:13 -0500
+Processing by ReferralCandidatesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mReferralCandidate Load (0.0ms)[0m  SELECT "referral_candidates".* FROM "referral_candidates" WHERE "referral_candidates"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered referral_candidates/_form.html.erb (4.0ms)
+  Rendered referral_candidates/edit.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 31ms (Views: 29.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-30 17:53:14 -0500
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-06-30 17:53:14 -0500
+Served asset /referral-love.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.css?body=1" for 127.0.0.1 at 2012-06-30 17:53:14 -0500
+Served asset /referral_candidates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-30 17:53:14 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-30 17:53:14 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-30 17:53:14 -0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-06-30 17:53:14 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-30 17:53:14 -0500
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/referral_candidates/1/edit" for 127.0.0.1 at 2012-06-30 17:53:44 -0500
+Processing by ReferralCandidatesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mReferralCandidate Load (0.0ms)[0m  [1mSELECT "referral_candidates".* FROM "referral_candidates" WHERE "referral_candidates"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered referral_candidates/_form.html.erb (6.0ms)
+  Rendered referral_candidates/edit.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 32ms (Views: 29.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/referral_candidates.css?body=1" for 127.0.0.1 at 2012-06-30 17:53:44 -0500
+Served asset /referral_candidates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-06-30 17:53:44 -0500
+Served asset /referral-love.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-30 17:53:44 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-30 17:53:44 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-30 17:53:44 -0500
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-30 17:53:44 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-30 17:53:44 -0500
+Served asset /application.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-06-30 17:53:44 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/referral_candidates/1/edit" for 127.0.0.1 at 2012-06-30 17:56:15 -0500
+Processing by ReferralCandidatesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mReferralCandidate Load (1.0ms)[0m  SELECT "referral_candidates".* FROM "referral_candidates" WHERE "referral_candidates"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered referral_candidates/_form.html.erb (7.0ms)
+  Rendered referral_candidates/edit.html.erb within layouts/application (11.0ms)
+Compiled application.css  (0ms)  (pid 12616)
+Completed 200 OK in 86ms (Views: 84.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-06-30 17:56:15 -0500
+Served asset /referral-love.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-30 17:56:15 -0500
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-30 17:56:15 -0500
+Served asset /application.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-30 17:56:15 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-06-30 17:56:15 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-30 17:56:16 -0500
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/referral_candidates/1" for 127.0.0.1 at 2012-06-30 17:56:24 -0500
+Processing by ReferralCandidatesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mReferralCandidate Load (0.0ms)[0m  [1mSELECT "referral_candidates".* FROM "referral_candidates" WHERE "referral_candidates"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered referral_candidates/show.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 22ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-30 17:56:25 -0500
+Served asset /application.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-06-30 17:56:25 -0500
+Served asset /referral-love.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-06-30 17:56:25 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-30 17:56:25 -0500
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-30 17:56:25 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-30 17:56:25 -0500
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/referral_candidates/1" for 127.0.0.1 at 2012-06-30 17:58:00 -0500
+Processing by ReferralCandidatesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mReferralCandidate Load (1.0ms)[0m  SELECT "referral_candidates".* FROM "referral_candidates" WHERE "referral_candidates"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered referral_candidates/show.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 27ms (Views: 24.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-06-30 17:58:00 -0500
+Served asset /referral-love.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-30 17:58:01 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-30 17:58:01 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-06-30 17:58:01 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-30 17:58:01 -0500
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-30 17:58:01 -0500
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/referral_candidates/1/edit" for 127.0.0.1 at 2012-06-30 17:58:06 -0500
+Processing by ReferralCandidatesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mReferralCandidate Load (0.0ms)[0m  [1mSELECT "referral_candidates".* FROM "referral_candidates" WHERE "referral_candidates"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered referral_candidates/_form.html.erb (5.0ms)
+  Rendered referral_candidates/edit.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 25ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-06-30 17:58:06 -0500
+Served asset /referral-love.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-30 17:58:06 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-30 17:58:06 -0500
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-06-30 17:58:06 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-30 17:58:06 -0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-30 17:58:06 -0500
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/referral_candidates/1/edit" for 127.0.0.1 at 2012-06-30 17:58:07 -0500
+Processing by ReferralCandidatesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mReferralCandidate Load (1.0ms)[0m  SELECT "referral_candidates".* FROM "referral_candidates" WHERE "referral_candidates"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered referral_candidates/_form.html.erb (36.0ms)
+  Rendered referral_candidates/edit.html.erb within layouts/application (41.0ms)
+Completed 200 OK in 61ms (Views: 57.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-30 17:58:07 -0500
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-30 17:58:07 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-06-30 17:58:07 -0500
+Served asset /referral-love.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-06-30 17:58:07 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-30 17:58:07 -0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-30 17:58:08 -0500
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/referral_candidates/1/edit" for 127.0.0.1 at 2012-06-30 17:59:49 -0500
+Processing by ReferralCandidatesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mReferralCandidate Load (0.0ms)[0m  [1mSELECT "referral_candidates".* FROM "referral_candidates" WHERE "referral_candidates"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered referral_candidates/_form.html.erb (7.0ms)
+  Rendered referral_candidates/edit.html.erb within layouts/application (11.0ms)
+Compiled referral-love.css  (0ms)  (pid 12616)
+Compiled application.css  (2ms)  (pid 12616)
+Completed 200 OK in 109ms (Views: 107.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-30 17:59:49 -0500
+Served asset /application.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-06-30 17:59:49 -0500
+Served asset /referral-love.css - 200 OK (6ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-06-30 17:59:49 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-30 17:59:49 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-30 17:59:49 -0500
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-30 17:59:49 -0500
+Served asset /application.js - 304 Not Modified (14ms)
+
+
+Started GET "/referral_candidates" for 127.0.0.1 at 2012-06-30 17:59:52 -0500
+Processing by ReferralCandidatesController#index as HTML
+  [1m[35mReferralCandidate Load (1.0ms)[0m  SELECT "referral_candidates".* FROM "referral_candidates" 
+  Rendered referral_candidates/index.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 31ms (Views: 28.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-30 17:59:52 -0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-06-30 17:59:53 -0500
+Served asset /referral-love.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-30 17:59:53 -0500
+Served asset /jquery.js - 304 Not Modified (16ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-06-30 17:59:53 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-30 17:59:53 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-30 17:59:53 -0500
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/referral_candidates" for 127.0.0.1 at 2012-06-30 18:00:25 -0500
+Processing by ReferralCandidatesController#index as HTML
+  [1m[36mReferralCandidate Load (1.0ms)[0m  [1mSELECT "referral_candidates".* FROM "referral_candidates" [0m
+  Rendered referral_candidates/index.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 44ms (Views: 40.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-30 18:00:25 -0500
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-30 18:00:25 -0500
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-06-30 18:00:25 -0500
+Served asset /referral-love.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-30 18:00:25 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-06-30 18:00:25 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-30 18:00:25 -0500
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/referral_candidates" for 127.0.0.1 at 2012-06-30 18:01:00 -0500
+Processing by ReferralCandidatesController#index as HTML
+  [1m[35mReferralCandidate Load (1.0ms)[0m  SELECT "referral_candidates".* FROM "referral_candidates" 
+  Rendered referral_candidates/index.html.erb within layouts/application (8.0ms)
+Compiled referral-love.css  (1ms)  (pid 12616)
+Compiled application.css  (2ms)  (pid 12616)
+Completed 200 OK in 104ms (Views: 100.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-30 18:01:00 -0500
+Served asset /application.css - 304 Not Modified (16ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-06-30 18:01:00 -0500
+Served asset /referral-love.css - 200 OK (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-30 18:01:00 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-30 18:01:00 -0500
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-06-30 18:01:00 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-30 18:01:00 -0500
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/referral_candidates" for 127.0.0.1 at 2012-06-30 18:02:00 -0500
+Processing by ReferralCandidatesController#index as HTML
+  [1m[36mReferralCandidate Load (1.0ms)[0m  [1mSELECT "referral_candidates".* FROM "referral_candidates" [0m
+  Rendered referral_candidates/index.html.erb within layouts/application (9.0ms)
+Compiled referral-love.css  (0ms)  (pid 12616)
+Compiled application.css  (3ms)  (pid 12616)
+Completed 200 OK in 108ms (Views: 104.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-30 18:02:00 -0500
+Served asset /application.css - 304 Not Modified (25ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-30 18:02:00 -0500
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-06-30 18:02:00 -0500
+Served asset /referral-love.css - 200 OK (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-30 18:02:00 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-06-30 18:02:00 -0500
+Served asset /referral_candidates.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-30 18:02:00 -0500
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/referral_candidates" for 127.0.0.1 at 2012-06-30 18:02:21 -0500
+Processing by ReferralCandidatesController#index as HTML
+  [1m[35mReferralCandidate Load (0.0ms)[0m  SELECT "referral_candidates".* FROM "referral_candidates" 
+  Rendered referral_candidates/index.html.erb within layouts/application (11.0ms)
+Compiled referral-love.css  (0ms)  (pid 12616)
+Compiled application.css  (2ms)  (pid 12616)
+Completed 200 OK in 144ms (Views: 142.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-06-30 18:02:21 -0500
+Served asset /referral-love.css - 200 OK (19ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-30 18:02:21 -0500
+Served asset /application.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-30 18:02:21 -0500
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-30 18:02:21 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-06-30 18:02:21 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-30 18:02:21 -0500
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/referral_candidates/new" for 127.0.0.1 at 2012-06-30 18:02:27 -0500
+Processing by ReferralCandidatesController#new as HTML
+  Rendered referral_candidates/_form.html.erb (5.0ms)
+  Rendered referral_candidates/new.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 27ms (Views: 26.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-30 18:02:27 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-06-30 18:02:27 -0500
+Served asset /referral-love.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-30 18:02:27 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-30 18:02:27 -0500
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-06-30 18:02:27 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-30 18:02:27 -0500
+Served asset /application.js - 304 Not Modified (44ms)
+
+
+Started GET "/referral_candidates/new" for 127.0.0.1 at 2012-06-30 18:03:27 -0500
+Processing by ReferralCandidatesController#new as HTML
+  Rendered referral_candidates/_form.html.erb (5.0ms)
+  Rendered referral_candidates/new.html.erb within layouts/application (12.0ms)
+Compiled referral-love.css  (1ms)  (pid 12616)
+Compiled application.css  (5ms)  (pid 12616)
+Completed 200 OK in 112ms (Views: 112.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-06-30 18:03:27 -0500
+Served asset /referral-love.css - 200 OK (5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-30 18:03:27 -0500
+Served asset /application.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-30 18:03:27 -0500
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-30 18:03:27 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-30 18:03:27 -0500
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-06-30 18:03:27 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/referral_candidates/new" for 127.0.0.1 at 2012-06-30 18:04:06 -0500
+Processing by ReferralCandidatesController#new as HTML
+  Rendered referral_candidates/_form.html.erb (6.0ms)
+  Rendered referral_candidates/new.html.erb within layouts/application (10.0ms)
+Compiled referral-love.css  (0ms)  (pid 12616)
+Compiled application.css  (1ms)  (pid 12616)
+Completed 200 OK in 91ms (Views: 91.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-30 18:04:06 -0500
+Served asset /jquery.js - 304 Not Modified (59ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-30 18:04:06 -0500
+Served asset /application.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-06-30 18:04:06 -0500
+Served asset /referral-love.css - 200 OK (10ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-30 18:04:06 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-06-30 18:04:06 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-30 18:04:06 -0500
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/referral_candidates" for 127.0.0.1 at 2012-06-30 18:06:00 -0500
+Processing by ReferralCandidatesController#index as HTML
+  [1m[36mReferralCandidate Load (0.0ms)[0m  [1mSELECT "referral_candidates".* FROM "referral_candidates" [0m
+  Rendered referral_candidates/index.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 33ms (Views: 30.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-30 18:06:01 -0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-06-30 18:06:01 -0500
+Served asset /referral-love.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-30 18:06:01 -0500
+Served asset /jquery.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-30 18:06:01 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-06-30 18:06:01 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-30 18:06:01 -0500
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/referral_candidates/new" for 127.0.0.1 at 2012-06-30 18:06:05 -0500
+Processing by ReferralCandidatesController#new as HTML
+  Rendered referral_candidates/_form.html.erb (6.0ms)
+  Rendered referral_candidates/new.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 30ms (Views: 29.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-30 18:06:05 -0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-06-30 18:06:05 -0500
+Served asset /referral-love.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-30 18:06:06 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-30 18:06:06 -0500
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-06-30 18:06:06 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-30 18:06:06 -0500
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/referral_candidates/new" for 127.0.0.1 at 2012-06-30 18:06:31 -0500
+Processing by ReferralCandidatesController#new as HTML
+  Rendered referral_candidates/_form.html.erb (7.0ms)
+  Rendered referral_candidates/new.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 31ms (Views: 30.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-30 18:06:31 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-06-30 18:06:31 -0500
+Served asset /referral-love.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-30 18:06:31 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-30 18:06:31 -0500
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-06-30 18:06:31 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-30 18:06:32 -0500
+Served asset /application.js - 304 Not Modified (38ms)
+
+
+Started GET "/referral_candidates/new" for 127.0.0.1 at 2012-06-30 18:09:28 -0500
+Processing by ReferralCandidatesController#new as HTML
+  Rendered referral_candidates/_form.html.erb (4.0ms)
+  Rendered referral_candidates/new.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 31ms (Views: 30.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-30 18:09:29 -0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-06-30 18:09:29 -0500
+Served asset /referral-love.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-30 18:09:29 -0500
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-30 18:09:29 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-30 18:09:29 -0500
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-06-30 18:09:29 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/referral_candidates" for 127.0.0.1 at 2012-06-30 18:09:32 -0500
+Processing by ReferralCandidatesController#index as HTML
+  [1m[35mReferralCandidate Load (0.0ms)[0m  SELECT "referral_candidates".* FROM "referral_candidates" 
+  Rendered referral_candidates/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 26ms (Views: 24.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-30 18:09:32 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-06-30 18:09:32 -0500
+Served asset /referral-love.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-30 18:09:32 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-06-30 18:09:32 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-30 18:09:32 -0500
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-30 18:09:32 -0500
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/referral_candidates/new" for 127.0.0.1 at 2012-06-30 18:09:34 -0500
+Processing by ReferralCandidatesController#new as HTML
+  Rendered referral_candidates/_form.html.erb (4.0ms)
+  Rendered referral_candidates/new.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 27ms (Views: 27.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-30 18:09:34 -0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-06-30 18:09:34 -0500
+Served asset /referral-love.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-06-30 18:09:34 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-30 18:09:34 -0500
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-30 18:09:34 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-30 18:09:34 -0500
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/referral_candidates/new" for 127.0.0.1 at 2012-06-30 18:11:22 -0500
+Processing by ReferralCandidatesController#new as HTML
+  Rendered referral_candidates/_form.html.erb (4.0ms)
+  Rendered referral_candidates/new.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 27ms (Views: 27.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-06-30 18:11:22 -0500
+Served asset /referral-love.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-30 18:11:22 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-06-30 18:11:22 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-30 18:11:22 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-30 18:11:22 -0500
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-30 18:11:22 -0500
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/referral_candidates/new" for 127.0.0.1 at 2012-06-30 18:12:08 -0500
+Processing by ReferralCandidatesController#new as HTML
+  Rendered referral_candidates/_form.html.erb (4.0ms)
+  Rendered referral_candidates/new.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 25ms (Views: 24.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-30 18:12:08 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-06-30 18:12:08 -0500
+Served asset /referral-love.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-30 18:12:08 -0500
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-30 18:12:09 -0500
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-30 18:12:09 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-06-30 18:12:09 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/referral_candidates/new" for 127.0.0.1 at 2012-06-30 18:12:54 -0500
+Processing by ReferralCandidatesController#new as HTML
+  Rendered referral_candidates/_form.html.erb (4.0ms)
+  Rendered referral_candidates/new.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 62ms (Views: 61.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-30 18:12:54 -0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-06-30 18:12:54 -0500
+Served asset /referral-love.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-30 18:12:55 -0500
+Served asset /jquery.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-30 18:12:55 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-30 18:12:55 -0500
+Served asset /application.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-06-30 18:12:55 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/referral_candidates/new" for 127.0.0.1 at 2012-06-30 18:13:27 -0500
+Processing by ReferralCandidatesController#new as HTML
+  Rendered referral_candidates/_form.html.erb (4.0ms)
+  Rendered referral_candidates/new.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 32ms (Views: 30.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-30 18:13:28 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-06-30 18:13:28 -0500
+Served asset /referral-love.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-30 18:13:28 -0500
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-06-30 18:13:28 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-30 18:13:28 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-30 18:13:28 -0500
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/referral_candidates/new" for 127.0.0.1 at 2012-06-30 18:13:48 -0500
+Processing by ReferralCandidatesController#new as HTML
+  Rendered referral_candidates/_form.html.erb (5.0ms)
+  Rendered referral_candidates/new.html.erb within layouts/application (8.0ms)
+Compiled referral-love.css  (0ms)  (pid 12616)
+Compiled application.css  (3ms)  (pid 12616)
+Completed 200 OK in 141ms (Views: 141.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-30 18:13:48 -0500
+Served asset /application.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-06-30 18:13:49 -0500
+Served asset /referral-love.css - 200 OK (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-30 18:13:49 -0500
+Served asset /jquery.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-30 18:13:49 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-06-30 18:13:49 -0500
+Served asset /referral_candidates.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-30 18:13:49 -0500
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/referral_candidates/new" for 127.0.0.1 at 2012-06-30 18:20:09 -0500
+Processing by ReferralCandidatesController#new as HTML
+  Rendered referral_candidates/_form.html.erb (10.0ms)
+  Rendered referral_candidates/new.html.erb within layouts/application (15.0ms)
+Compiled application.css  (3ms)  (pid 12616)
+Completed 200 OK in 158ms (Views: 140.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-30 18:20:09 -0500
+Served asset /application.css - 200 OK (16ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-06-30 18:20:09 -0500
+Served asset /referral-love.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-30 18:20:09 -0500
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-06-30 18:20:09 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-30 18:20:09 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-30 18:20:09 -0500
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/referral_recipients/new" for 127.0.0.1 at 2012-06-30 18:20:13 -0500
+
+ActionController::RoutingError (No route matches [GET] "/referral_recipients/new"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/referral_recipients" for 127.0.0.1 at 2012-06-30 18:20:19 -0500
+
+ActionController::RoutingError (No route matches [GET] "/referral_recipients"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/referral_candidates/new" for 127.0.0.1 at 2012-06-30 18:35:12 -0500
+Connecting to database specified by database.yml
+Processing by ReferralCandidatesController#new as HTML
+  Rendered referral_candidates/_form.html.erb (16.0ms)
+  Rendered referral_candidates/new.html.erb within layouts/application (88.0ms)
+Compiled referral_recipients.css  (31ms)  (pid 2380)
+Compiled scaffolds.css  (18ms)  (pid 2380)
+Compiled application.css  (109ms)  (pid 2380)
+Compiled referral_recipients.js  (703ms)  (pid 2380)
+Compiled application.js  (749ms)  (pid 2380)
+Completed 200 OK in 1564ms (Views: 1335.1ms | ActiveRecord: 23.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-30 18:35:17 -0500
+Served asset /application.css - 304 Not Modified (13ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-06-30 18:35:17 -0500
+Served asset /referral-love.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/referral_recipients.css?body=1" for 127.0.0.1 at 2012-06-30 18:35:17 -0500
+Served asset /referral_recipients.css - 200 OK (3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-30 18:35:17 -0500
+Served asset /scaffolds.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-30 18:35:17 -0500
+Served asset /jquery.js - 304 Not Modified (16ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-30 18:35:17 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (44ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-06-30 18:35:17 -0500
+Served asset /referral_recipients.js - 200 OK (4ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-06-30 18:35:17 -0500
+Served asset /referral_candidates.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-30 18:35:17 -0500
+Served asset /application.js - 304 Not Modified (18ms)
+
+
+Started GET "/referral_candidates/new" for 127.0.0.1 at 2012-06-30 18:38:09 -0500
+Processing by ReferralCandidatesController#new as HTML
+  Rendered referral_candidates/_form.html.erb (5.0ms)
+  Rendered referral_candidates/new.html.erb within layouts/application (8.0ms)
+Compiled referral-love.css  (0ms)  (pid 2380)
+Compiled application.css  (3ms)  (pid 2380)
+Completed 200 OK in 165ms (Views: 165.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-30 18:38:09 -0500
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-06-30 18:38:09 -0500
+Served asset /referral-love.css - 200 OK (10ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-30 18:38:09 -0500
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-06-30 18:38:09 -0500
+Served asset /referral_recipients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-30 18:38:09 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-06-30 18:38:09 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-30 18:38:09 -0500
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/referral_recipients/new" for 127.0.0.1 at 2012-06-30 18:38:26 -0500
+Processing by ReferralRecipientsController#new as HTML
+Completed 500 Internal Server Error in 2ms
+
+ActiveRecord::StatementInvalid (Could not find table 'referral_recipients'):
+  app/controllers/referral_recipients_controller.rb:27:in `new'
+  app/controllers/referral_recipients_controller.rb:27:in `new'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (7.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (47.0ms)
+
+
+Started GET "/referral_recipients" for 127.0.0.1 at 2012-06-30 18:38:37 -0500
+Processing by ReferralRecipientsController#index as HTML
+Completed 500 Internal Server Error in 2ms
+
+ActiveRecord::StatementInvalid (Could not find table 'referral_recipients'):
+  app/controllers/referral_recipients_controller.rb:5:in `index'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (7.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (51.0ms)
+
+
+Started GET "/referral_recipient" for 127.0.0.1 at 2012-06-30 18:38:45 -0500
+
+ActionController::RoutingError (No route matches [GET] "/referral_recipient"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/referral_recipients" for 127.0.0.1 at 2012-06-30 18:39:43 -0500
+Processing by ReferralRecipientsController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+ActiveRecord::StatementInvalid (Could not find table 'referral_recipients'):
+  app/controllers/referral_recipients_controller.rb:5:in `index'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (6.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (38.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (84.0ms)
+Connecting to database specified by database.yml
+  [1m[36m (1.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateReferralCandidates (20120630213654)
+Migrating to CreateReferralRecipients (20120630232816)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (29.0ms)[0m  CREATE TABLE "referral_recipients" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "website" varchar(255), "referral_code" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (1.0ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20120630232816')[0m
+  [1m[35m (5.0ms)[0m  commit transaction
+  [1m[36m (1.0ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (1.0ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("referral_candidates")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("referral_recipients")
+
+
+Started GET "/referral_recipients" for 127.0.0.1 at 2012-06-30 18:42:13 -0500
+Processing by ReferralRecipientsController#index as HTML
+  [1m[36mReferralRecipient Load (1.0ms)[0m  [1mSELECT "referral_recipients".* FROM "referral_recipients" [0m
+  Rendered referral_recipients/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 29ms (Views: 24.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-30 18:42:13 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-06-30 18:42:13 -0500
+Served asset /referral-love.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-30 18:42:14 -0500
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-06-30 18:42:14 -0500
+Served asset /referral_candidates.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-30 18:42:14 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-06-30 18:42:14 -0500
+Served asset /referral_recipients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-30 18:42:14 -0500
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/referral_recipients/new" for 127.0.0.1 at 2012-06-30 18:42:40 -0500
+Processing by ReferralRecipientsController#new as HTML
+  Rendered referral_recipients/_form.html.erb (6.0ms)
+  Rendered referral_recipients/new.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 82ms (Views: 33.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-30 18:42:40 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-06-30 18:42:40 -0500
+Served asset /referral-love.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-30 18:42:40 -0500
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-30 18:42:40 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-06-30 18:42:40 -0500
+Served asset /referral_recipients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-06-30 18:42:40 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-30 18:42:40 -0500
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started POST "/referral_recipients" for 127.0.0.1 at 2012-06-30 18:42:45 -0500
+Processing by ReferralRecipientsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"e6v9BmU6ANcTpB5oVRltVZKH2daCf94RH/WmXT2wPCY=", "referral_recipient"=>{"website"=>"", "referral_code"=>""}, "commit"=>"Create Referral recipient"}
+  [1m[35m (1.0ms)[0m  begin transaction
+  [1m[36mSQL (49.0ms)[0m  [1mINSERT INTO "referral_recipients" ("created_at", "referral_code", "updated_at", "website") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 30 Jun 2012 23:42:45 UTC +00:00], ["referral_code", ""], ["updated_at", Sat, 30 Jun 2012 23:42:45 UTC +00:00], ["website", ""]]
+  [1m[35m (6.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/referral_recipients/1
+Completed 302 Found in 64ms (ActiveRecord: 56.0ms)
+
+
+Started GET "/referral_recipients/1" for 127.0.0.1 at 2012-06-30 18:42:45 -0500
+Processing by ReferralRecipientsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mReferralRecipient Load (0.0ms)[0m  [1mSELECT "referral_recipients".* FROM "referral_recipients" WHERE "referral_recipients"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered referral_recipients/show.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 40ms (Views: 34.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-30 18:42:46 -0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-06-30 18:42:46 -0500
+Served asset /referral-love.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-30 18:42:46 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-06-30 18:42:46 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-30 18:42:46 -0500
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-06-30 18:42:46 -0500
+Served asset /referral_recipients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-30 18:42:46 -0500
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/referral_recipients/new" for 127.0.0.1 at 2012-06-30 18:44:04 -0500
+Processing by ReferralRecipientsController#new as HTML
+  Rendered referral_recipients/_form.html.erb (4.0ms)
+  Rendered referral_recipients/_form.html.erb (4.0ms)
+  Rendered referral_recipients/new.html.erb within layouts/application (17.0ms)
+Completed 200 OK in 38ms (Views: 37.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-30 18:44:04 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-30 18:44:04 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-06-30 18:44:04 -0500
+Served asset /referral-love.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-30 18:44:04 -0500
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-06-30 18:44:04 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-06-30 18:44:04 -0500
+Served asset /referral_recipients.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-30 18:44:05 -0500
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started POST "/referral_recipients" for 127.0.0.1 at 2012-06-30 18:44:08 -0500
+Processing by ReferralRecipientsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"e6v9BmU6ANcTpB5oVRltVZKH2daCf94RH/WmXT2wPCY=", "referral_recipient"=>{"website"=>"", "referral_code"=>""}, "commit"=>"Create Referral recipient"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (2.0ms)[0m  [1mINSERT INTO "referral_recipients" ("created_at", "referral_code", "updated_at", "website") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 30 Jun 2012 23:44:08 UTC +00:00], ["referral_code", ""], ["updated_at", Sat, 30 Jun 2012 23:44:08 UTC +00:00], ["website", ""]]
+  [1m[35m (7.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/referral_recipients/2
+Completed 302 Found in 18ms (ActiveRecord: 9.0ms)
+
+
+Started GET "/referral_recipients/2" for 127.0.0.1 at 2012-06-30 18:44:08 -0500
+Processing by ReferralRecipientsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mReferralRecipient Load (0.0ms)[0m  [1mSELECT "referral_recipients".* FROM "referral_recipients" WHERE "referral_recipients"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  Rendered referral_recipients/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 21ms (Views: 19.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-30 18:44:09 -0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-06-30 18:44:09 -0500
+Served asset /referral-love.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-30 18:44:09 -0500
+Served asset /jquery.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-06-30 18:44:09 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-06-30 18:44:09 -0500
+Served asset /referral_recipients.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-30 18:44:09 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-30 18:44:09 -0500
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started POST "/referral_recipients" for 127.0.0.1 at 2012-06-30 18:44:11 -0500
+Processing by ReferralRecipientsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"e6v9BmU6ANcTpB5oVRltVZKH2daCf94RH/WmXT2wPCY=", "referral_recipient"=>{"website"=>"", "referral_code"=>""}, "commit"=>"Create Referral recipient"}
+  [1m[35m (1.0ms)[0m  begin transaction
+  [1m[36mSQL (3.0ms)[0m  [1mINSERT INTO "referral_recipients" ("created_at", "referral_code", "updated_at", "website") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 30 Jun 2012 23:44:11 UTC +00:00], ["referral_code", ""], ["updated_at", Sat, 30 Jun 2012 23:44:11 UTC +00:00], ["website", ""]]
+  [1m[35m (5.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/referral_recipients/3
+Completed 302 Found in 16ms (ActiveRecord: 9.0ms)
+
+
+Started GET "/referral_recipients/3" for 127.0.0.1 at 2012-06-30 18:44:11 -0500
+Processing by ReferralRecipientsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mReferralRecipient Load (0.0ms)[0m  [1mSELECT "referral_recipients".* FROM "referral_recipients" WHERE "referral_recipients"."id" = ? LIMIT 1[0m  [["id", "3"]]
+  Rendered referral_recipients/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 24ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-30 18:44:11 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-30 18:44:11 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-30 18:44:11 -0500
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-06-30 18:44:11 -0500
+Served asset /referral_candidates.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-06-30 18:44:11 -0500
+Served asset /referral_recipients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-06-30 18:44:11 -0500
+Served asset /referral-love.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-30 18:44:11 -0500
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/referral_recipients/new" for 127.0.0.1 at 2012-06-30 18:44:24 -0500
+Processing by ReferralRecipientsController#new as HTML
+  Rendered referral_recipients/_form.html.erb (4.0ms)
+  Rendered referral_recipients/new.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 30ms (Views: 30.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-30 18:44:25 -0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-06-30 18:44:25 -0500
+Served asset /referral-love.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-06-30 18:44:25 -0500
+Served asset /referral_recipients.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-30 18:44:25 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-30 18:44:25 -0500
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-06-30 18:44:25 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-30 18:44:25 -0500
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started POST "/referral_recipients" for 127.0.0.1 at 2012-06-30 18:44:32 -0500
+Processing by ReferralRecipientsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"e6v9BmU6ANcTpB5oVRltVZKH2daCf94RH/WmXT2wPCY=", "referral_recipient"=>{"website"=>"", "referral_code"=>""}, "commit"=>"Create Referral recipient"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (2.0ms)[0m  [1mINSERT INTO "referral_recipients" ("created_at", "referral_code", "updated_at", "website") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 30 Jun 2012 23:44:32 UTC +00:00], ["referral_code", ""], ["updated_at", Sat, 30 Jun 2012 23:44:32 UTC +00:00], ["website", ""]]
+  [1m[35m (6.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/referral_recipients/4
+Completed 302 Found in 13ms (ActiveRecord: 8.0ms)
+
+
+Started GET "/referral_recipients/4" for 127.0.0.1 at 2012-06-30 18:44:32 -0500
+Processing by ReferralRecipientsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mReferralRecipient Load (1.0ms)[0m  [1mSELECT "referral_recipients".* FROM "referral_recipients" WHERE "referral_recipients"."id" = ? LIMIT 1[0m  [["id", "4"]]
+  Rendered referral_recipients/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 23ms (Views: 20.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-30 18:44:32 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-06-30 18:44:32 -0500
+Served asset /referral-love.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-30 18:44:33 -0500
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-30 18:44:33 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-06-30 18:44:33 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-06-30 18:44:33 -0500
+Served asset /referral_recipients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-30 18:44:33 -0500
+Served asset /application.js - 304 Not Modified (6ms)
+
+
+Started GET "/referral_recipients/4" for 127.0.0.1 at 2012-06-30 18:46:32 -0500
+Processing by ReferralRecipientsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mReferralRecipient Load (1.0ms)[0m  SELECT "referral_recipients".* FROM "referral_recipients" WHERE "referral_recipients"."id" = ? LIMIT 1  [["id", "4"]]
+  Rendered referral_recipients/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 37ms (Views: 23.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-30 18:46:32 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-30 18:46:32 -0500
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-06-30 18:46:32 -0500
+Served asset /referral-love.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-06-30 18:46:32 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-30 18:46:32 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-06-30 18:46:32 -0500
+Served asset /referral_recipients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-30 18:46:32 -0500
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started POST "/referral_recipients" for 127.0.0.1 at 2012-06-30 18:46:36 -0500
+Processing by ReferralRecipientsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"e6v9BmU6ANcTpB5oVRltVZKH2daCf94RH/WmXT2wPCY=", "referral_recipient"=>{"website"=>"", "referral_code"=>""}, "commit"=>"Create Referral recipient"}
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.0ms)[0m  INSERT INTO "referral_recipients" ("created_at", "referral_code", "updated_at", "website") VALUES (?, ?, ?, ?)  [["created_at", Sat, 30 Jun 2012 23:46:36 UTC +00:00], ["referral_code", ""], ["updated_at", Sat, 30 Jun 2012 23:46:36 UTC +00:00], ["website", ""]]
+  [1m[36m (5.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/referral_recipients/5
+Completed 302 Found in 21ms (ActiveRecord: 8.0ms)
+
+
+Started GET "/referral_recipients/5" for 127.0.0.1 at 2012-06-30 18:46:36 -0500
+Processing by ReferralRecipientsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mReferralRecipient Load (1.0ms)[0m  SELECT "referral_recipients".* FROM "referral_recipients" WHERE "referral_recipients"."id" = ? LIMIT 1  [["id", "5"]]
+  Rendered referral_recipients/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 23ms (Views: 18.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-06-30 18:46:36 -0500
+Served asset /referral-love.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-30 18:46:36 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-06-30 18:46:36 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-30 18:46:36 -0500
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-30 18:46:36 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-06-30 18:46:36 -0500
+Served asset /referral_recipients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-30 18:46:36 -0500
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/referral_recipients/5" for 127.0.0.1 at 2012-06-30 18:47:01 -0500
+Processing by ReferralRecipientsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mReferralRecipient Load (0.0ms)[0m  [1mSELECT "referral_recipients".* FROM "referral_recipients" WHERE "referral_recipients"."id" = ? LIMIT 1[0m  [["id", "5"]]
+  Rendered referral_recipients/show.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 80ms (Views: 63.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-06-30 18:47:01 -0500
+Served asset /referral-love.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-30 18:47:01 -0500
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-06-30 18:47:01 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-30 18:47:01 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-06-30 18:47:01 -0500
+Served asset /referral_recipients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-30 18:47:01 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-30 18:47:01 -0500
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started POST "/referral_recipients" for 127.0.0.1 at 2012-06-30 18:47:03 -0500
+Processing by ReferralRecipientsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"e6v9BmU6ANcTpB5oVRltVZKH2daCf94RH/WmXT2wPCY=", "referral_recipient"=>{"website"=>"", "referral_code"=>""}, "commit"=>"Create Referral recipient"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (4.0ms)[0m  [1mINSERT INTO "referral_recipients" ("created_at", "referral_code", "updated_at", "website") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 30 Jun 2012 23:47:03 UTC +00:00], ["referral_code", ""], ["updated_at", Sat, 30 Jun 2012 23:47:03 UTC +00:00], ["website", ""]]
+  [1m[35m (15.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/referral_recipients/6
+Completed 302 Found in 30ms (ActiveRecord: 19.0ms)
+
+
+Started GET "/referral_recipients/6" for 127.0.0.1 at 2012-06-30 18:47:03 -0500
+Processing by ReferralRecipientsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mReferralRecipient Load (0.0ms)[0m  [1mSELECT "referral_recipients".* FROM "referral_recipients" WHERE "referral_recipients"."id" = ? LIMIT 1[0m  [["id", "6"]]
+  Rendered referral_recipients/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 29ms (Views: 26.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-30 18:47:03 -0500
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-30 18:47:03 -0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-06-30 18:47:03 -0500
+Served asset /referral-love.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-30 18:47:03 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-06-30 18:47:04 -0500
+Served asset /referral_recipients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-06-30 18:47:04 -0500
+Served asset /referral_candidates.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-30 18:47:04 -0500
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/referral_recipients/6" for 127.0.0.1 at 2012-06-30 18:49:58 -0500
+Processing by ReferralRecipientsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mReferralRecipient Load (1.0ms)[0m  SELECT "referral_recipients".* FROM "referral_recipients" WHERE "referral_recipients"."id" = ? LIMIT 1  [["id", "6"]]
+  Rendered referral_recipients/show.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 28ms (Views: 24.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-30 18:49:58 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-06-30 18:49:58 -0500
+Served asset /referral-love.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-30 18:49:58 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-30 18:49:58 -0500
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-06-30 18:49:58 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-06-30 18:49:58 -0500
+Served asset /referral_recipients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-30 18:49:58 -0500
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/referral_recipients/new" for 127.0.0.1 at 2012-06-30 18:50:01 -0500
+Processing by ReferralRecipientsController#new as HTML
+  Rendered referral_recipients/_form.html.erb (5.0ms)
+  Rendered referral_recipients/new.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 70ms (Views: 69.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-30 18:50:01 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-06-30 18:50:01 -0500
+Served asset /referral-love.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-30 18:50:01 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-30 18:50:01 -0500
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-06-30 18:50:01 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-06-30 18:50:01 -0500
+Served asset /referral_recipients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-30 18:50:01 -0500
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/referral_recipients/new" for 127.0.0.1 at 2012-06-30 18:50:14 -0500
+Processing by ReferralRecipientsController#new as HTML
+  Rendered referral_recipients/_form.html.erb (3.0ms)
+  Rendered referral_recipients/new.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 27ms (Views: 27.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-30 18:50:14 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-06-30 18:50:14 -0500
+Served asset /referral-love.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-30 18:50:14 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-06-30 18:50:14 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-30 18:50:14 -0500
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-06-30 18:50:14 -0500
+Served asset /referral_recipients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-30 18:50:14 -0500
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started POST "/referral_recipients" for 127.0.0.1 at 2012-06-30 18:50:15 -0500
+Processing by ReferralRecipientsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"e6v9BmU6ANcTpB5oVRltVZKH2daCf94RH/WmXT2wPCY=", "referral_recipient"=>{"website"=>""}, "commit"=>"Get Referral"}
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (2.0ms)[0m  INSERT INTO "referral_recipients" ("created_at", "referral_code", "updated_at", "website") VALUES (?, ?, ?, ?)  [["created_at", Sat, 30 Jun 2012 23:50:15 UTC +00:00], ["referral_code", nil], ["updated_at", Sat, 30 Jun 2012 23:50:15 UTC +00:00], ["website", ""]]
+  [1m[36m (6.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/referral_recipients/7
+Completed 302 Found in 13ms (ActiveRecord: 9.0ms)
+
+
+Started GET "/referral_recipients/7" for 127.0.0.1 at 2012-06-30 18:50:15 -0500
+Processing by ReferralRecipientsController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mReferralRecipient Load (0.0ms)[0m  SELECT "referral_recipients".* FROM "referral_recipients" WHERE "referral_recipients"."id" = ? LIMIT 1  [["id", "7"]]
+  Rendered referral_recipients/show.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 27ms (Views: 25.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-30 18:50:16 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-06-30 18:50:16 -0500
+Served asset /referral-love.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-30 18:50:16 -0500
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-30 18:50:16 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-06-30 18:50:16 -0500
+Served asset /referral_candidates.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-06-30 18:50:16 -0500
+Served asset /referral_recipients.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-30 18:50:16 -0500
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started POST "/referral_recipients" for 127.0.0.1 at 2012-06-30 18:50:23 -0500
+Processing by ReferralRecipientsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"e6v9BmU6ANcTpB5oVRltVZKH2daCf94RH/WmXT2wPCY=", "referral_recipient"=>{"website"=>""}, "commit"=>"Get Referral"}
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (2.0ms)[0m  INSERT INTO "referral_recipients" ("created_at", "referral_code", "updated_at", "website") VALUES (?, ?, ?, ?)  [["created_at", Sat, 30 Jun 2012 23:50:23 UTC +00:00], ["referral_code", nil], ["updated_at", Sat, 30 Jun 2012 23:50:23 UTC +00:00], ["website", ""]]
+  [1m[36m (6.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/referral_recipients/8
+Completed 302 Found in 13ms (ActiveRecord: 8.0ms)
+
+
+Started GET "/referral_recipients/8" for 127.0.0.1 at 2012-06-30 18:50:23 -0500
+Processing by ReferralRecipientsController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[35mReferralRecipient Load (0.0ms)[0m  SELECT "referral_recipients".* FROM "referral_recipients" WHERE "referral_recipients"."id" = ? LIMIT 1  [["id", "8"]]
+  Rendered referral_recipients/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 54ms (Views: 52.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-30 18:50:23 -0500
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-30 18:50:23 -0500
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-06-30 18:50:23 -0500
+Served asset /referral-love.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-06-30 18:50:23 -0500
+Served asset /referral_recipients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-30 18:50:23 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-06-30 18:50:23 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-30 18:50:23 -0500
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/referral_recipients/8" for 127.0.0.1 at 2012-06-30 18:57:54 -0500
+Processing by ReferralRecipientsController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mReferralRecipient Load (1.0ms)[0m  [1mSELECT "referral_recipients".* FROM "referral_recipients" WHERE "referral_recipients"."id" = ? LIMIT 1[0m  [["id", "8"]]
+  Rendered referral_recipients/show.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 33ms (Views: 30.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-06-30 18:57:54 -0500
+Served asset /referral-love.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-30 18:57:54 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-30 18:57:54 -0500
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-06-30 18:57:54 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-30 18:57:54 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (39ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-06-30 18:57:54 -0500
+Served asset /referral_recipients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-30 18:57:54 -0500
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started POST "/referral_recipients" for 127.0.0.1 at 2012-06-30 18:57:58 -0500
+Processing by ReferralRecipientsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"e6v9BmU6ANcTpB5oVRltVZKH2daCf94RH/WmXT2wPCY=", "referral_recipient"=>{"website"=>""}, "commit"=>"Get Referral"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (2.0ms)[0m  [1mINSERT INTO "referral_recipients" ("created_at", "referral_code", "updated_at", "website") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 30 Jun 2012 23:57:58 UTC +00:00], ["referral_code", nil], ["updated_at", Sat, 30 Jun 2012 23:57:58 UTC +00:00], ["website", ""]]
+  [1m[35m (4.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/referral_recipients/9
+Completed 302 Found in 13ms (ActiveRecord: 6.0ms)
+
+
+Started GET "/referral_recipients/9" for 127.0.0.1 at 2012-06-30 18:57:58 -0500
+Processing by ReferralRecipientsController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mReferralRecipient Load (1.0ms)[0m  [1mSELECT "referral_recipients".* FROM "referral_recipients" WHERE "referral_recipients"."id" = ? LIMIT 1[0m  [["id", "9"]]
+  Rendered referral_recipients/show.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 24ms (Views: 21.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-06-30 18:57:58 -0500
+Served asset /referral-love.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-30 18:57:58 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-30 18:57:58 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-06-30 18:57:58 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-30 18:57:58 -0500
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-06-30 18:57:58 -0500
+Served asset /referral_recipients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-30 18:57:58 -0500
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/referral_candidates" for 127.0.0.1 at 2012-06-30 19:01:11 -0500
+Processing by ReferralCandidatesController#index as HTML
+  [1m[35mReferralCandidate Load (0.0ms)[0m  SELECT "referral_candidates".* FROM "referral_candidates" 
+  Rendered referral_candidates/index.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 54ms (Views: 36.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-30 19:01:11 -0500
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-06-30 19:01:11 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-30 19:01:11 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-30 19:01:11 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-06-30 19:01:11 -0500
+Served asset /referral_recipients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-06-30 19:01:12 -0500
+Served asset /referral-love.css - 200 OK (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-30 19:01:12 -0500
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-06-30 19:01:12 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/referral_recipients" for 127.0.0.1 at 2012-06-30 19:01:16 -0500
+Processing by ReferralRecipientsController#index as HTML
+  [1m[36mReferralRecipient Load (1.0ms)[0m  [1mSELECT "referral_recipients".* FROM "referral_recipients" [0m
+  Rendered referral_recipients/index.html.erb within layouts/application (17.0ms)
+Completed 200 OK in 43ms (Views: 40.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-30 19:01:16 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-30 19:01:16 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-06-30 19:01:16 -0500
+Served asset /referral_candidates.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-06-30 19:01:16 -0500
+Served asset /referral_recipients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-30 19:01:16 -0500
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-30 19:01:16 -0500
+Served asset /application.js - 304 Not Modified (16ms)
+
+
+Started GET "/referral_recipients/new" for 127.0.0.1 at 2012-06-30 19:01:18 -0500
+Processing by ReferralRecipientsController#new as HTML
+  Rendered referral_recipients/_form.html.erb (6.0ms)
+  Rendered referral_recipients/new.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 30ms (Views: 30.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-30 19:01:18 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-30 19:01:18 -0500
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-30 19:01:19 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-06-30 19:01:19 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-30 19:01:19 -0500
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-06-30 19:01:19 -0500
+Served asset /referral_recipients.js - 304 Not Modified (0ms)
+
+
+Started POST "/referral_recipients" for 127.0.0.1 at 2012-06-30 19:01:22 -0500
+Processing by ReferralRecipientsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"e6v9BmU6ANcTpB5oVRltVZKH2daCf94RH/WmXT2wPCY=", "referral_recipient"=>{"website"=>"groupon"}}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "referral_recipients" ("created_at", "referral_code", "updated_at", "website") VALUES (?, ?, ?, ?)[0m  [["created_at", Sun, 01 Jul 2012 00:01:23 UTC +00:00], ["referral_code", nil], ["updated_at", Sun, 01 Jul 2012 00:01:23 UTC +00:00], ["website", "groupon"]]
+  [1m[35m (6.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/referral_recipients/10
+Completed 302 Found in 14ms (ActiveRecord: 7.0ms)
+
+
+Started GET "/referral_recipients/10" for 127.0.0.1 at 2012-06-30 19:01:23 -0500
+Processing by ReferralRecipientsController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mReferralRecipient Load (0.0ms)[0m  [1mSELECT "referral_recipients".* FROM "referral_recipients" WHERE "referral_recipients"."id" = ? LIMIT 1[0m  [["id", "10"]]
+  Rendered referral_recipients/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 24ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-30 19:01:23 -0500
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-30 19:01:23 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-30 19:01:23 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-06-30 19:01:23 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-06-30 19:01:23 -0500
+Served asset /referral_recipients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-30 19:01:23 -0500
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/referral_recipients" for 127.0.0.1 at 2012-06-30 19:01:42 -0500
+Processing by ReferralRecipientsController#index as HTML
+  [1m[35mReferralRecipient Load (0.0ms)[0m  SELECT "referral_recipients".* FROM "referral_recipients" 
+  Rendered referral_recipients/index.html.erb within layouts/application (16.0ms)
+Completed 200 OK in 41ms (Views: 37.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-30 19:01:43 -0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-30 19:01:43 -0500
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-30 19:01:43 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-06-30 19:01:43 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-06-30 19:01:43 -0500
+Served asset /referral_recipients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-30 19:01:43 -0500
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/referral_recipients/new" for 127.0.0.1 at 2012-06-30 19:01:45 -0500
+Processing by ReferralRecipientsController#new as HTML
+  Rendered referral_recipients/_form.html.erb (5.0ms)
+  Rendered referral_recipients/new.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 32ms (Views: 30.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-30 19:01:45 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-30 19:01:45 -0500
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-30 19:01:46 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-06-30 19:01:46 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-30 19:01:46 -0500
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-06-30 19:01:46 -0500
+Served asset /referral_recipients.js - 304 Not Modified (0ms)
+
+
+Started POST "/referral_recipients" for 127.0.0.1 at 2012-06-30 19:01:49 -0500
+Processing by ReferralRecipientsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"e6v9BmU6ANcTpB5oVRltVZKH2daCf94RH/WmXT2wPCY=", "referral_recipient"=>{"website"=>""}, "commit"=>"Get Referral"}
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "referral_recipients" ("created_at", "referral_code", "updated_at", "website") VALUES (?, ?, ?, ?)  [["created_at", Sun, 01 Jul 2012 00:01:49 UTC +00:00], ["referral_code", nil], ["updated_at", Sun, 01 Jul 2012 00:01:49 UTC +00:00], ["website", ""]]
+  [1m[36m (6.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/referral_recipients/11
+Completed 302 Found in 14ms (ActiveRecord: 7.0ms)
+
+
+Started GET "/referral_recipients/11" for 127.0.0.1 at 2012-06-30 19:01:49 -0500
+Processing by ReferralRecipientsController#show as HTML
+  Parameters: {"id"=>"11"}
+  [1m[35mReferralRecipient Load (0.0ms)[0m  SELECT "referral_recipients".* FROM "referral_recipients" WHERE "referral_recipients"."id" = ? LIMIT 1  [["id", "11"]]
+  Rendered referral_recipients/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 23ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-30 19:01:49 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-30 19:01:49 -0500
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-06-30 19:01:50 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-30 19:01:50 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-06-30 19:01:50 -0500
+Served asset /referral_recipients.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-30 19:01:50 -0500
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/referral_recipients" for 127.0.0.1 at 2012-06-30 19:02:43 -0500
+Processing by ReferralRecipientsController#index as HTML
+  [1m[36mReferralRecipient Load (1.0ms)[0m  [1mSELECT "referral_recipients".* FROM "referral_recipients" [0m
+  Rendered referral_recipients/index.html.erb within layouts/application (18.0ms)
+Completed 200 OK in 40ms (Views: 37.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-30 19:02:43 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-30 19:02:44 -0500
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-30 19:02:44 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-06-30 19:02:44 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-06-30 19:02:44 -0500
+Served asset /referral_recipients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-30 19:02:44 -0500
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/referral_recipients/new" for 127.0.0.1 at 2012-06-30 19:02:46 -0500
+Processing by ReferralRecipientsController#new as HTML
+  Rendered referral_recipients/_form.html.erb (3.0ms)
+  Rendered referral_recipients/new.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 63ms (Views: 61.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-30 19:02:46 -0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-30 19:02:46 -0500
+Served asset /jquery.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-30 19:02:46 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-06-30 19:02:47 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-06-30 19:02:47 -0500
+Served asset /referral_recipients.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-30 19:02:47 -0500
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/referral_recipients/new" for 127.0.0.1 at 2012-06-30 19:07:11 -0500
+Processing by ReferralRecipientsController#new as HTML
+  Rendered referral_recipients/_form.html.erb (2.0ms)
+  Rendered referral_recipients/new.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 27ms (Views: 26.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-30 19:07:12 -0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-06-30 19:07:12 -0500
+Served asset /referral-love.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-30 19:07:12 -0500
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-06-30 19:07:12 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-30 19:07:12 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-06-30 19:07:12 -0500
+Served asset /referral_recipients.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-30 19:07:12 -0500
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/referral_recipients/new" for 127.0.0.1 at 2012-06-30 19:07:41 -0500
+Processing by ReferralRecipientsController#new as HTML
+  Rendered referral_recipients/_form.html.erb (2.0ms)
+  Rendered referral_recipients/new.html.erb within layouts/application (5.0ms)
+Compiled referral-love.css  (0ms)  (pid 2380)
+Compiled application.css  (5ms)  (pid 2380)
+Completed 200 OK in 193ms (Views: 191.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-06-30 19:07:41 -0500
+Served asset /referral-love.css - 200 OK (78ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-30 19:07:41 -0500
+Served asset /application.css - 304 Not Modified (62ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-30 19:07:42 -0500
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-30 19:07:42 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-06-30 19:07:42 -0500
+Served asset /referral_recipients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-06-30 19:07:42 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-30 19:07:42 -0500
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/referral_recipients/new" for 127.0.0.1 at 2012-06-30 19:07:57 -0500
+Processing by ReferralRecipientsController#new as HTML
+  Rendered referral_recipients/_form.html.erb (2.0ms)
+  Rendered referral_recipients/new.html.erb within layouts/application (7.0ms)
+Compiled referral-love.css  (1ms)  (pid 2380)
+Compiled application.css  (7ms)  (pid 2380)
+Completed 200 OK in 214ms (Views: 214.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-06-30 19:07:58 -0500
+Served asset /referral-love.css - 200 OK (158ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-30 19:07:58 -0500
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-30 19:07:58 -0500
+Served asset /application.css - 304 Not Modified (104ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-30 19:07:58 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-06-30 19:07:58 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-06-30 19:07:58 -0500
+Served asset /referral_recipients.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-30 19:07:58 -0500
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/referral_recipients/new" for 127.0.0.1 at 2012-06-30 19:08:11 -0500
+Processing by ReferralRecipientsController#new as HTML
+  Rendered referral_recipients/_form.html.erb (2.0ms)
+  Rendered referral_recipients/new.html.erb within layouts/application (6.0ms)
+Compiled referral-love.css  (0ms)  (pid 2380)
+Compiled application.css  (6ms)  (pid 2380)
+Completed 200 OK in 201ms (Views: 200.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-06-30 19:08:12 -0500
+Served asset /referral-love.css - 200 OK (99ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-30 19:08:12 -0500
+Served asset /application.css - 304 Not Modified (105ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-30 19:08:12 -0500
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-30 19:08:12 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-06-30 19:08:12 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-06-30 19:08:12 -0500
+Served asset /referral_recipients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-30 19:08:12 -0500
+Served asset /application.js - 304 Not Modified (6ms)
+
+
+Started GET "/referral_recipients/new" for 127.0.0.1 at 2012-06-30 19:08:36 -0500
+Processing by ReferralRecipientsController#new as HTML
+  Rendered referral_recipients/_form.html.erb (4.0ms)
+  Rendered referral_recipients/new.html.erb within layouts/application (9.0ms)
+Compiled referral-love.css  (0ms)  (pid 2380)
+Compiled application.css  (5ms)  (pid 2380)
+Completed 200 OK in 188ms (Views: 188.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-06-30 19:08:37 -0500
+Served asset /referral-love.css - 200 OK (99ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-30 19:08:37 -0500
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-30 19:08:37 -0500
+Served asset /application.css - 304 Not Modified (92ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-30 19:08:37 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-06-30 19:08:37 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-06-30 19:08:37 -0500
+Served asset /referral_recipients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-30 19:08:37 -0500
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/referral_recipients/new" for 127.0.0.1 at 2012-06-30 19:09:23 -0500
+Processing by ReferralRecipientsController#new as HTML
+  Rendered referral_recipients/_form.html.erb (3.0ms)
+  Rendered referral_recipients/new.html.erb within layouts/application (8.0ms)
+Compiled referral-love.css  (1ms)  (pid 2380)
+Compiled application.css  (6ms)  (pid 2380)
+Completed 200 OK in 215ms (Views: 215.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-06-30 19:09:24 -0500
+Served asset /referral-love.css - 200 OK (73ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-30 19:09:24 -0500
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-30 19:09:24 -0500
+Served asset /application.css - 304 Not Modified (70ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-30 19:09:24 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-06-30 19:09:24 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-06-30 19:09:24 -0500
+Served asset /referral_recipients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-30 19:09:24 -0500
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/referral_recipients/new" for 127.0.0.1 at 2012-06-30 19:09:56 -0500
+Processing by ReferralRecipientsController#new as HTML
+  Rendered referral_recipients/_form.html.erb (2.0ms)
+  Rendered referral_recipients/new.html.erb within layouts/application (4.0ms)
+Compiled referral-love.css  (0ms)  (pid 2380)
+Compiled application.css  (6ms)  (pid 2380)
+Completed 200 OK in 194ms (Views: 194.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-30 19:09:57 -0500
+Served asset /application.css - 304 Not Modified (105ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-06-30 19:09:57 -0500
+Served asset /referral-love.css - 200 OK (69ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-30 19:09:57 -0500
+Served asset /application.js - 304 Not Modified (13ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-06-30 19:09:57 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-30 19:09:57 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-06-30 19:09:57 -0500
+Served asset /referral_recipients.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-30 19:09:57 -0500
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/referral_recipients/new" for 127.0.0.1 at 2012-06-30 19:10:18 -0500
+Processing by ReferralRecipientsController#new as HTML
+  Rendered referral_recipients/_form.html.erb (3.0ms)
+  Rendered referral_recipients/new.html.erb within layouts/application (10.0ms)
+Compiled referral-love.css  (1ms)  (pid 2380)
+Compiled application.css  (7ms)  (pid 2380)
+Completed 200 OK in 255ms (Views: 255.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-30 19:10:18 -0500
+Served asset /application.css - 304 Not Modified (111ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-30 19:10:19 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-30 19:10:19 -0500
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-06-30 19:10:19 -0500
+Served asset /referral-love.css - 200 OK (102ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-06-30 19:10:19 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-06-30 19:10:19 -0500
+Served asset /referral_recipients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-30 19:10:19 -0500
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/referral_recipients/new" for 127.0.0.1 at 2012-06-30 19:10:27 -0500
+Processing by ReferralRecipientsController#new as HTML
+  Rendered referral_recipients/_form.html.erb (2.0ms)
+  Rendered referral_recipients/new.html.erb within layouts/application (5.0ms)
+Compiled referral-love.css  (0ms)  (pid 2380)
+Compiled application.css  (4ms)  (pid 2380)
+Completed 200 OK in 167ms (Views: 167.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-30 19:10:27 -0500
+Served asset /application.css - 304 Not Modified (78ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-06-30 19:10:27 -0500
+Served asset /referral-love.css - 200 OK (92ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-30 19:10:28 -0500
+Served asset /jquery.js - 304 Not Modified (13ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-30 19:10:28 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-30 19:10:28 -0500
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-06-30 19:10:28 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-06-30 19:10:28 -0500
+Served asset /referral_recipients.js - 304 Not Modified (0ms)
+
+
+Started GET "/referral_recipients" for 127.0.0.1 at 2012-06-30 19:11:25 -0500
+Processing by ReferralRecipientsController#index as HTML
+  [1m[35mReferralRecipient Load (1.0ms)[0m  SELECT "referral_recipients".* FROM "referral_recipients" 
+  Rendered referral_recipients/index.html.erb within layouts/application (20.5ms)
+Completed 200 OK in 46ms (Views: 42.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-30 19:11:25 -0500
+Served asset /jquery.js - 304 Not Modified (74ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-30 19:11:25 -0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-30 19:11:26 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-06-30 19:11:26 -0500
+Served asset /referral-love.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-06-30 19:11:26 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-06-30 19:11:26 -0500
+Served asset /referral_recipients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-30 19:11:26 -0500
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/referral_candidates" for 127.0.0.1 at 2012-06-30 19:12:18 -0500
+Processing by ReferralCandidatesController#index as HTML
+  [1m[36mReferralCandidate Load (0.5ms)[0m  [1mSELECT "referral_candidates".* FROM "referral_candidates" [0m
+  Rendered referral_candidates/index.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 32ms (Views: 29.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-30 19:12:18 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-30 19:12:18 -0500
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-30 19:12:18 -0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-06-30 19:12:18 -0500
+Served asset /referral-love.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-06-30 19:12:18 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-06-30 19:12:18 -0500
+Served asset /referral_recipients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-30 19:12:19 -0500
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/referral_recipients" for 127.0.0.1 at 2012-06-30 19:12:22 -0500
+Processing by ReferralRecipientsController#index as HTML
+  [1m[35mReferralRecipient Load (0.0ms)[0m  SELECT "referral_recipients".* FROM "referral_recipients" 
+  Rendered referral_recipients/index.html.erb within layouts/application (55.0ms)
+Completed 200 OK in 78ms (Views: 76.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-30 19:12:22 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-30 19:12:22 -0500
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-30 19:12:22 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-06-30 19:12:22 -0500
+Served asset /referral-love.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-06-30 19:12:22 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-06-30 19:12:22 -0500
+Served asset /referral_recipients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-30 19:12:22 -0500
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/referral_recipients/new" for 127.0.0.1 at 2012-06-30 19:12:24 -0500
+Processing by ReferralRecipientsController#new as HTML
+  Rendered referral_recipients/_form.html.erb (2.0ms)
+  Rendered referral_recipients/new.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 24ms (Views: 24.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-30 19:12:24 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-06-30 19:12:24 -0500
+Served asset /referral-love.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-30 19:12:24 -0500
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-30 19:12:24 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-06-30 19:12:24 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-06-30 19:12:25 -0500
+Served asset /referral_recipients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-30 19:12:25 -0500
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started POST "/referral_recipients" for 127.0.0.1 at 2012-06-30 19:12:30 -0500
+Processing by ReferralRecipientsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"e6v9BmU6ANcTpB5oVRltVZKH2daCf94RH/WmXT2wPCY=", "referral_recipient"=>{"website"=>"groupon"}, "commit"=>"Get Referral"}
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (2.0ms)[0m  INSERT INTO "referral_recipients" ("created_at", "referral_code", "updated_at", "website") VALUES (?, ?, ?, ?)  [["created_at", Sun, 01 Jul 2012 00:12:30 UTC +00:00], ["referral_code", nil], ["updated_at", Sun, 01 Jul 2012 00:12:30 UTC +00:00], ["website", "groupon"]]
+  [1m[36m (10.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/referral_recipients/12
+Completed 302 Found in 16ms (ActiveRecord: 12.0ms)
+
+
+Started GET "/referral_recipients/12" for 127.0.0.1 at 2012-06-30 19:12:30 -0500
+Processing by ReferralRecipientsController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[35mReferralRecipient Load (0.0ms)[0m  SELECT "referral_recipients".* FROM "referral_recipients" WHERE "referral_recipients"."id" = ? LIMIT 1  [["id", "12"]]
+  Rendered referral_recipients/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 23ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-06-30 19:12:31 -0500
+Served asset /referral-love.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-30 19:12:31 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-30 19:12:31 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-06-30 19:12:31 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-30 19:12:31 -0500
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-06-30 19:12:31 -0500
+Served asset /referral_recipients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-30 19:12:31 -0500
+Served asset /application.js - 304 Not Modified (2ms)

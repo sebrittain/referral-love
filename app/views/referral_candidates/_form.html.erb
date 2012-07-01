@@ -1,25 +1,28 @@
-<%= form_for(@referral_candidate) do |f| %>
-  <% if @referral_candidate.errors.any? %>
-    <div id="error_explanation">
-      <h2><%= pluralize(@referral_candidate.errors.count, "error") %> prohibited this referral_candidate from being saved:</h2>
 
-      <ul>
-      <% @referral_candidate.errors.full_messages.each do |msg| %>
-        <li><%= msg %></li>
-      <% end %>
-      </ul>
+  <%= form_for(@referral_candidate) do |f| %>
+    <% if @referral_candidate.errors.any? %>
+      <div id="error_explanation">
+        <h2><%= pluralize(@referral_candidate.errors.count, "error") %> prohibited this referral_candidate from being saved:</h2>
+
+        <ul>
+        <% @referral_candidate.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
+        </ul>
+      </div>
+    <% end %>
+<div class = "center">
+    <div class="field">
+      <%= f.label :website %><br />
+      <%= f.text_field :website %>
     </div>
-  <% end %>
-
-  <div class="field">
-    <%= f.label :website %><br />
-    <%= f.text_field :website %>
-  </div>
-  <div class="field">
-    <%= f.label :referral_code %><br />
-    <%= f.text_field :referral_code %>
-  </div>
-  <div class="actions">
-    <%= f.submit %>
-  </div>
+    <div class="field">
+      <%= f.label :referral_code %><br />
+      <%= f.text_field :referral_code %>
+    </div>
+    <div class="actions">
+      <%= f.submit %>
+    </div>
+  
+</div>
 <% end %>
