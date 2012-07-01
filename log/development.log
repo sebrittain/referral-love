@@ -39213,3 +39213,5032 @@ Served asset /small_logotype.jpg - 304 Not Modified (0ms)
 
 Started GET "/assets/step.gif" for 127.0.0.1 at 2012-07-01 11:42:09 -0500
 Served asset /step.gif - 304 Not Modified (1ms)
+
+
+Started GET "/grab" for 127.0.0.1 at 2012-07-01 12:04:27 -0500
+Processing by ReferralRecipientsController#new as HTML
+  Rendered referral_recipients/_form.html.erb (104.0ms)
+  Rendered referral_recipients/new.html.erb within layouts/application (307.0ms)
+Completed 200 OK in 370ms (Views: 357.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/codes.css?body=1" for 127.0.0.1 at 2012-07-01 12:04:28 -0500
+Served asset /codes.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-01 12:04:28 -0500
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-07-01 12:04:28 -0500
+Served asset /referral-love.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.css?body=1" for 127.0.0.1 at 2012-07-01 12:04:28 -0500
+Served asset /referral_candidates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-07-01 12:04:28 -0500
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-07-01 12:04:28 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-07-01 12:04:28 -0500
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-07-01 12:04:28 -0500
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-01 12:04:28 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-01 12:04:28 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/codes.js?body=1" for 127.0.0.1 at 2012-07-01 12:04:29 -0500
+Served asset /codes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-07-01 12:04:29 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-07-01 12:04:29 -0500
+Served asset /referral_recipients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-07-01 12:04:29 -0500
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-07-01 12:04:29 -0500
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-07-01 12:04:29 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-01 12:04:29 -0500
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/divbox.jpg" for 127.0.0.1 at 2012-07-01 12:04:29 -0500
+Served asset /divbox.jpg - 304 Not Modified (132ms)
+
+
+Started GET "/grab" for 127.0.0.1 at 2012-07-01 12:05:16 -0500
+Processing by ReferralRecipientsController#new as HTML
+  Rendered referral_recipients/_form.html.erb (3.0ms)
+  Rendered referral_recipients/new.html.erb within layouts/application (7.0ms)
+Compiled referral-love.css  (0ms)  (pid 11496)
+Compiled application.css  (10ms)  (pid 11496)
+Completed 200 OK in 363ms (Views: 361.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/codes.css?body=1" for 127.0.0.1 at 2012-07-01 12:05:17 -0500
+Served asset /codes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-07-01 12:05:17 -0500
+Served asset /referral-love.css - 200 OK (128ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-07-01 12:05:17 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-01 12:05:17 -0500
+Served asset /application.css - 304 Not Modified (179ms)
+
+
+Started GET "/assets/referral_candidates.css?body=1" for 127.0.0.1 at 2012-07-01 12:05:17 -0500
+Served asset /referral_candidates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-07-01 12:05:18 -0500
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-07-01 12:05:18 -0500
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-07-01 12:05:18 -0500
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-01 12:05:18 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/codes.js?body=1" for 127.0.0.1 at 2012-07-01 12:05:18 -0500
+Served asset /codes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-01 12:05:18 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-07-01 12:05:18 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-07-01 12:05:18 -0500
+Served asset /referral_recipients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-07-01 12:05:19 -0500
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-07-01 12:05:19 -0500
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-07-01 12:05:19 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-01 12:05:19 -0500
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/teaserbg.jpg" for 127.0.0.1 at 2012-07-01 12:05:20 -0500
+Served asset /teaserbg.jpg - 304 Not Modified (8ms)
+
+
+Started GET "/assets/bar.gif" for 127.0.0.1 at 2012-07-01 12:05:20 -0500
+Served asset /bar.gif - 304 Not Modified (3ms)
+
+
+Started GET "/assets/small_logotype.jpg" for 127.0.0.1 at 2012-07-01 12:05:20 -0500
+Served asset /small_logotype.jpg - 304 Not Modified (1ms)
+
+
+Started POST "/referral_recipients" for 127.0.0.1 at 2012-07-01 12:19:08 -0500
+Processing by ReferralRecipientsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"e6v9BmU6ANcTpB5oVRltVZKH2daCf94RH/WmXT2wPCY=", "referral_recipient"=>{"website"=>""}, "commit"=>"Get Referral"}
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (156.5ms)[0m  INSERT INTO "referral_recipients" ("created_at", "referral_code", "updated_at", "website") VALUES (?, ?, ?, ?)  [["created_at", Sun, 01 Jul 2012 17:19:08 UTC +00:00], ["referral_code", nil], ["updated_at", Sun, 01 Jul 2012 17:19:08 UTC +00:00], ["website", ""]]
+  [1m[36m (163.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/referral_recipients/31
+Completed 302 Found in 338ms (ActiveRecord: 319.5ms)
+
+
+Started GET "/referral_recipients/31" for 127.0.0.1 at 2012-07-01 12:19:09 -0500
+Processing by ReferralRecipientsController#show as HTML
+  Parameters: {"id"=>"31"}
+  [1m[35mReferralCandidate Load (1.0ms)[0m  SELECT "referral_candidates".* FROM "referral_candidates" WHERE "referral_candidates"."website" = 'Groupon' ORDER BY times_used LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (2.0ms)[0m  UPDATE "referral_candidates" SET "times_used" = '3', "updated_at" = '2012-07-01 17:19:09.274162' WHERE "referral_candidates"."id" = 2
+  [1m[36m (4.0ms)[0m  [1mcommit transaction[0m
+  Rendered referral_recipients/show.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 232ms (Views: 40.0ms | ActiveRecord: 7.0ms)
+
+
+Started GET "/assets/codes.css?body=1" for 127.0.0.1 at 2012-07-01 12:19:09 -0500
+Served asset /codes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-01 12:19:09 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-07-01 12:19:09 -0500
+Served asset /referral-love.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-07-01 12:19:09 -0500
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-07-01 12:19:09 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.css?body=1" for 127.0.0.1 at 2012-07-01 12:19:09 -0500
+Served asset /referral_candidates.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-07-01 12:19:10 -0500
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-07-01 12:19:10 -0500
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-01 12:19:10 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-01 12:19:10 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/codes.js?body=1" for 127.0.0.1 at 2012-07-01 12:19:10 -0500
+Served asset /codes.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-07-01 12:19:10 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-07-01 12:19:10 -0500
+Served asset /referral_recipients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-07-01 12:19:10 -0500
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-07-01 12:19:10 -0500
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-07-01 12:19:10 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-01 12:19:10 -0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/referral_recipients" for 127.0.0.1 at 2012-07-01 12:19:29 -0500
+Processing by ReferralRecipientsController#index as HTML
+  [1m[35mReferralRecipient Load (0.0ms)[0m  SELECT "referral_recipients".* FROM "referral_recipients" 
+  Rendered referral_recipients/index.html.erb within layouts/application (48.0ms)
+Completed 200 OK in 169ms (Views: 163.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/codes.css?body=1" for 127.0.0.1 at 2012-07-01 12:19:29 -0500
+Served asset /codes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-01 12:19:29 -0500
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/referral_candidates.css?body=1" for 127.0.0.1 at 2012-07-01 12:19:29 -0500
+Served asset /referral_candidates.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-07-01 12:19:29 -0500
+Served asset /referral-love.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-07-01 12:19:29 -0500
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-07-01 12:19:29 -0500
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-07-01 12:19:29 -0500
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-07-01 12:19:29 -0500
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-01 12:19:30 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-01 12:19:30 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/codes.js?body=1" for 127.0.0.1 at 2012-07-01 12:19:30 -0500
+Served asset /codes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-07-01 12:19:30 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-07-01 12:19:30 -0500
+Served asset /referral_recipients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-07-01 12:19:30 -0500
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-07-01 12:19:30 -0500
+Served asset /static_pages.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-07-01 12:19:30 -0500
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-01 12:19:30 -0500
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2012-07-01 12:19:31 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 36ms (Views: 35.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-01 12:19:31 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/codes.css?body=1" for 127.0.0.1 at 2012-07-01 12:19:31 -0500
+Served asset /codes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-07-01 12:19:31 -0500
+Served asset /referral-love.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.css?body=1" for 127.0.0.1 at 2012-07-01 12:19:31 -0500
+Served asset /referral_candidates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-07-01 12:19:31 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-07-01 12:19:31 -0500
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-07-01 12:19:31 -0500
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-07-01 12:19:31 -0500
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-01 12:19:31 -0500
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-01 12:19:32 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/codes.js?body=1" for 127.0.0.1 at 2012-07-01 12:19:32 -0500
+Served asset /codes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-07-01 12:19:32 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-07-01 12:19:32 -0500
+Served asset /referral_recipients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-07-01 12:19:32 -0500
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-07-01 12:19:32 -0500
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-07-01 12:19:32 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-01 12:19:32 -0500
+Served asset /application.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/bar.gif" for 127.0.0.1 at 2012-07-01 12:19:32 -0500
+Served asset /bar.gif - 304 Not Modified (7ms)
+
+
+Started GET "/assets/small_logotype.jpg" for 127.0.0.1 at 2012-07-01 12:19:33 -0500
+Served asset /small_logotype.jpg - 200 OK (1ms)
+
+
+Started GET "/assets/step.gif" for 127.0.0.1 at 2012-07-01 12:19:33 -0500
+Served asset /step.gif - 304 Not Modified (1ms)
+
+
+Started GET "/assets/teaserbg.jpg" for 127.0.0.1 at 2012-07-01 12:19:33 -0500
+Served asset /teaserbg.jpg - 200 OK (2ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2012-07-01 12:19:35 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 31ms (Views: 30.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/codes.css?body=1" for 127.0.0.1 at 2012-07-01 12:19:35 -0500
+Served asset /codes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-01 12:19:35 -0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-07-01 12:19:35 -0500
+Served asset /referral-love.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.css?body=1" for 127.0.0.1 at 2012-07-01 12:19:35 -0500
+Served asset /referral_candidates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-07-01 12:19:35 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-07-01 12:19:35 -0500
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-07-01 12:19:36 -0500
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-07-01 12:19:36 -0500
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-01 12:19:36 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-01 12:19:36 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/codes.js?body=1" for 127.0.0.1 at 2012-07-01 12:19:36 -0500
+Served asset /codes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-07-01 12:19:36 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-07-01 12:19:36 -0500
+Served asset /referral_recipients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-07-01 12:19:36 -0500
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-07-01 12:19:36 -0500
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-07-01 12:19:36 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-01 12:19:36 -0500
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/referral_candidates" for 127.0.0.1 at 2012-07-01 12:22:45 -0500
+Processing by ReferralCandidatesController#index as HTML
+  [1m[36mReferralCandidate Load (1.0ms)[0m  [1mSELECT "referral_candidates".* FROM "referral_candidates" [0m
+  [1m[35mReferralCandidate Load (0.0ms)[0m  SELECT "referral_candidates".* FROM "referral_candidates" ORDER BY times_used ASC
+  Rendered referral_candidates/index.html.erb within layouts/application (16.0ms)
+Completed 200 OK in 49ms (Views: 45.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/referral_candidates.css?body=1" for 127.0.0.1 at 2012-07-01 12:22:45 -0500
+Served asset /referral_candidates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/codes.css?body=1" for 127.0.0.1 at 2012-07-01 12:22:45 -0500
+Served asset /codes.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-07-01 12:22:45 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-07-01 12:22:45 -0500
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-01 12:22:45 -0500
+Served asset /application.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-07-01 12:22:45 -0500
+Served asset /referral-love.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-07-01 12:22:45 -0500
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-07-01 12:22:45 -0500
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-01 12:22:45 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-01 12:22:45 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/codes.js?body=1" for 127.0.0.1 at 2012-07-01 12:22:46 -0500
+Served asset /codes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-07-01 12:22:46 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-07-01 12:22:46 -0500
+Served asset /referral_recipients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-07-01 12:22:46 -0500
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-07-01 12:22:46 -0500
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-07-01 12:22:46 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-01 12:22:46 -0500
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/teaserbg.jpg" for 127.0.0.1 at 2012-07-01 12:22:46 -0500
+Served asset /teaserbg.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/small_logotype.jpg" for 127.0.0.1 at 2012-07-01 12:22:46 -0500
+Served asset /small_logotype.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/referral_candidates/new" for 127.0.0.1 at 2012-07-01 12:22:48 -0500
+Processing by ReferralCandidatesController#new as HTML
+  Rendered referral_candidates/_form.html.erb (5.0ms)
+  Rendered referral_candidates/new.html.erb within layouts/application (31.0ms)
+Completed 200 OK in 57ms (Views: 56.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-01 12:22:48 -0500
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/codes.css?body=1" for 127.0.0.1 at 2012-07-01 12:22:48 -0500
+Served asset /codes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-07-01 12:22:48 -0500
+Served asset /referral-love.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-07-01 12:22:48 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.css?body=1" for 127.0.0.1 at 2012-07-01 12:22:49 -0500
+Served asset /referral_candidates.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-07-01 12:22:49 -0500
+Served asset /sessions.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-07-01 12:22:49 -0500
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-07-01 12:22:49 -0500
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-01 12:22:49 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-01 12:22:49 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/codes.js?body=1" for 127.0.0.1 at 2012-07-01 12:22:49 -0500
+Served asset /codes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-07-01 12:22:49 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-07-01 12:22:49 -0500
+Served asset /referral_recipients.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-07-01 12:22:49 -0500
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-07-01 12:22:49 -0500
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-07-01 12:22:49 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-01 12:22:49 -0500
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bar.gif" for 127.0.0.1 at 2012-07-01 12:22:50 -0500
+Served asset /bar.gif - 304 Not Modified (0ms)
+
+
+Started GET "/referral_candidates/new" for 127.0.0.1 at 2012-07-01 12:24:11 -0500
+Processing by ReferralCandidatesController#new as HTML
+  Rendered referral_candidates/_form.html.erb (3.0ms)
+  Rendered referral_candidates/new.html.erb within layouts/application (8.0ms)
+Compiled referral-love.css  (0ms)  (pid 11496)
+Compiled application.css  (8ms)  (pid 11496)
+Completed 200 OK in 317ms (Views: 317.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-01 12:24:11 -0500
+Served asset /application.css - 304 Not Modified (132ms)
+
+
+Started GET "/assets/referral_candidates.css?body=1" for 127.0.0.1 at 2012-07-01 12:24:11 -0500
+Served asset /referral_candidates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-07-01 12:24:11 -0500
+Served asset /referral-love.css - 200 OK (101ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-07-01 12:24:12 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/codes.css?body=1" for 127.0.0.1 at 2012-07-01 12:24:12 -0500
+Served asset /codes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-07-01 12:24:12 -0500
+Served asset /sessions.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-07-01 12:24:12 -0500
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-07-01 12:24:12 -0500
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-01 12:24:12 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-01 12:24:12 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/codes.js?body=1" for 127.0.0.1 at 2012-07-01 12:24:12 -0500
+Served asset /codes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-07-01 12:24:12 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-07-01 12:24:12 -0500
+Served asset /referral_recipients.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-07-01 12:24:12 -0500
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-07-01 12:24:12 -0500
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-07-01 12:24:12 -0500
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-01 12:24:12 -0500
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/small_logotype.jpg" for 127.0.0.1 at 2012-07-01 12:24:13 -0500
+Served asset /small_logotype.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bar.gif" for 127.0.0.1 at 2012-07-01 12:24:13 -0500
+Served asset /bar.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teaserbg.jpg" for 127.0.0.1 at 2012-07-01 12:24:13 -0500
+Served asset /teaserbg.jpg - 304 Not Modified (2ms)
+
+
+Started GET "/referral_candidates/new" for 127.0.0.1 at 2012-07-01 12:26:03 -0500
+Processing by ReferralCandidatesController#new as HTML
+  Rendered referral_candidates/_form.html.erb (5.0ms)
+  Rendered referral_candidates/new.html.erb within layouts/application (8.0ms)
+Compiled referral-love.css  (0ms)  (pid 11496)
+Compiled application.css  (6ms)  (pid 11496)
+Completed 200 OK in 231ms (Views: 230.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/codes.css?body=1" for 127.0.0.1 at 2012-07-01 12:26:03 -0500
+Served asset /codes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-01 12:26:03 -0500
+Served asset /application.css - 304 Not Modified (81ms)
+
+
+Started GET "/assets/referral_candidates.css?body=1" for 127.0.0.1 at 2012-07-01 12:26:03 -0500
+Served asset /referral_candidates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-07-01 12:26:03 -0500
+Served asset /referral-love.css - 200 OK (65ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-07-01 12:26:04 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-07-01 12:26:04 -0500
+Served asset /sessions.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-07-01 12:26:04 -0500
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-01 12:26:04 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-07-01 12:26:04 -0500
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-01 12:26:04 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/codes.js?body=1" for 127.0.0.1 at 2012-07-01 12:26:04 -0500
+Served asset /codes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-07-01 12:26:04 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-07-01 12:26:04 -0500
+Served asset /referral_recipients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-07-01 12:26:04 -0500
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-07-01 12:26:04 -0500
+Served asset /static_pages.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-07-01 12:26:04 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-01 12:26:04 -0500
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/teaserbg.jpg" for 127.0.0.1 at 2012-07-01 12:26:05 -0500
+Served asset /teaserbg.jpg - 304 Not Modified (2ms)
+
+
+Started GET "/assets/small_logotype.jpg" for 127.0.0.1 at 2012-07-01 12:26:05 -0500
+Served asset /small_logotype.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bar.gif" for 127.0.0.1 at 2012-07-01 12:26:05 -0500
+Served asset /bar.gif - 304 Not Modified (2ms)
+
+
+Started GET "/referral_candidates/new" for 127.0.0.1 at 2012-07-01 12:26:57 -0500
+Processing by ReferralCandidatesController#new as HTML
+  Rendered referral_candidates/_form.html.erb (9.0ms)
+  Rendered referral_candidates/new.html.erb within layouts/application (12.0ms)
+Compiled referral-love.css  (0ms)  (pid 11496)
+Compiled application.css  (10ms)  (pid 11496)
+Completed 200 OK in 227ms (Views: 227.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/referral_candidates.css?body=1" for 127.0.0.1 at 2012-07-01 12:26:57 -0500
+Served asset /referral_candidates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/codes.css?body=1" for 127.0.0.1 at 2012-07-01 12:26:58 -0500
+Served asset /codes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-01 12:26:58 -0500
+Served asset /application.css - 304 Not Modified (114ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-07-01 12:26:58 -0500
+Served asset /referral-love.css - 200 OK (93ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-07-01 12:26:58 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-07-01 12:26:58 -0500
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-07-01 12:26:58 -0500
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-07-01 12:26:58 -0500
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-01 12:26:58 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-01 12:26:58 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/codes.js?body=1" for 127.0.0.1 at 2012-07-01 12:26:58 -0500
+Served asset /codes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-07-01 12:26:58 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-07-01 12:26:58 -0500
+Served asset /referral_recipients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-07-01 12:26:59 -0500
+Served asset /sessions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-07-01 12:26:59 -0500
+Served asset /static_pages.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-07-01 12:26:59 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-01 12:26:59 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bar.gif" for 127.0.0.1 at 2012-07-01 12:26:59 -0500
+Served asset /bar.gif - 304 Not Modified (1ms)
+
+
+Started GET "/assets/small_logotype.jpg" for 127.0.0.1 at 2012-07-01 12:26:59 -0500
+Served asset /small_logotype.jpg - 304 Not Modified (2ms)
+
+
+Started GET "/assets/teaserbg.jpg" for 127.0.0.1 at 2012-07-01 12:26:59 -0500
+Served asset /teaserbg.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/referral_candidates/new" for 127.0.0.1 at 2012-07-01 12:27:15 -0500
+Processing by ReferralCandidatesController#new as HTML
+  Rendered referral_candidates/_form.html.erb (5.0ms)
+  Rendered referral_candidates/new.html.erb within layouts/application (11.0ms)
+Compiled referral-love.css  (1ms)  (pid 11496)
+Compiled application.css  (9ms)  (pid 11496)
+Completed 200 OK in 204ms (Views: 204.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/codes.css?body=1" for 127.0.0.1 at 2012-07-01 12:27:16 -0500
+Served asset /codes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-01 12:27:16 -0500
+Served asset /application.css - 304 Not Modified (111ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-07-01 12:27:16 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-07-01 12:27:16 -0500
+Served asset /referral-love.css - 200 OK (99ms)
+
+
+Started GET "/assets/referral_candidates.css?body=1" for 127.0.0.1 at 2012-07-01 12:27:16 -0500
+Served asset /referral_candidates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-07-01 12:27:16 -0500
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-07-01 12:27:16 -0500
+Served asset /static_pages.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-07-01 12:27:17 -0500
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-01 12:27:17 -0500
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-01 12:27:17 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/codes.js?body=1" for 127.0.0.1 at 2012-07-01 12:27:17 -0500
+Served asset /codes.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-07-01 12:27:17 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-07-01 12:27:17 -0500
+Served asset /referral_recipients.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-07-01 12:27:17 -0500
+Served asset /sessions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-07-01 12:27:17 -0500
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-07-01 12:27:17 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-01 12:27:17 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bar.gif" for 127.0.0.1 at 2012-07-01 12:27:18 -0500
+Served asset /bar.gif - 304 Not Modified (8ms)
+
+
+Started GET "/assets/small_logotype.jpg" for 127.0.0.1 at 2012-07-01 12:27:18 -0500
+Served asset /small_logotype.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teaserbg.jpg" for 127.0.0.1 at 2012-07-01 12:27:18 -0500
+Served asset /teaserbg.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/referral_candidates/new" for 127.0.0.1 at 2012-07-01 12:29:26 -0500
+Processing by ReferralCandidatesController#new as HTML
+  Rendered referral_candidates/_form.html.erb (4.0ms)
+  Rendered referral_candidates/new.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 33ms (Views: 33.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-01 12:29:26 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-07-01 12:29:26 -0500
+Served asset /referral-love.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/referral_candidates.css?body=1" for 127.0.0.1 at 2012-07-01 12:29:26 -0500
+Served asset /referral_candidates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-07-01 12:29:26 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/codes.css?body=1" for 127.0.0.1 at 2012-07-01 12:29:26 -0500
+Served asset /codes.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-07-01 12:29:26 -0500
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-07-01 12:29:27 -0500
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-07-01 12:29:27 -0500
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-01 12:29:27 -0500
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-01 12:29:27 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/codes.js?body=1" for 127.0.0.1 at 2012-07-01 12:29:27 -0500
+Served asset /codes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-07-01 12:29:27 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-07-01 12:29:27 -0500
+Served asset /referral_recipients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-07-01 12:29:27 -0500
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-07-01 12:29:27 -0500
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-07-01 12:29:27 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-01 12:29:27 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/referral_candidates/new" for 127.0.0.1 at 2012-07-01 12:29:59 -0500
+Processing by ReferralCandidatesController#new as HTML
+  Rendered referral_candidates/_form.html.erb (2.0ms)
+  Rendered referral_candidates/new.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 27ms (Views: 26.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-07-01 12:29:59 -0500
+Served asset /referral-love.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-01 12:29:59 -0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/codes.css?body=1" for 127.0.0.1 at 2012-07-01 12:29:59 -0500
+Served asset /codes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.css?body=1" for 127.0.0.1 at 2012-07-01 12:30:00 -0500
+Served asset /referral_candidates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-07-01 12:30:00 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-07-01 12:30:00 -0500
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-07-01 12:30:00 -0500
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-07-01 12:30:00 -0500
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-01 12:30:00 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-01 12:30:00 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/codes.js?body=1" for 127.0.0.1 at 2012-07-01 12:30:00 -0500
+Served asset /codes.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-07-01 12:30:00 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-07-01 12:30:00 -0500
+Served asset /referral_recipients.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-07-01 12:30:00 -0500
+Served asset /sessions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-07-01 12:30:00 -0500
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-07-01 12:30:00 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-01 12:30:00 -0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/referral_candidates/new" for 127.0.0.1 at 2012-07-01 12:30:23 -0500
+Processing by ReferralCandidatesController#new as HTML
+  Rendered referral_candidates/_form.html.erb (3.0ms)
+  Rendered referral_candidates/new.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 35ms (Views: 35.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-01 12:30:23 -0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/codes.css?body=1" for 127.0.0.1 at 2012-07-01 12:30:23 -0500
+Served asset /codes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.css?body=1" for 127.0.0.1 at 2012-07-01 12:30:23 -0500
+Served asset /referral_candidates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-07-01 12:30:23 -0500
+Served asset /referral-love.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-07-01 12:30:23 -0500
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-07-01 12:30:23 -0500
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-07-01 12:30:23 -0500
+Served asset /static_pages.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-07-01 12:30:23 -0500
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-01 12:30:23 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-01 12:30:23 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/codes.js?body=1" for 127.0.0.1 at 2012-07-01 12:30:23 -0500
+Served asset /codes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-07-01 12:30:24 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-07-01 12:30:24 -0500
+Served asset /referral_recipients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-07-01 12:30:24 -0500
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-07-01 12:30:24 -0500
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-07-01 12:30:24 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-01 12:30:24 -0500
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/referral_recipients" for 127.0.0.1 at 2012-07-01 12:32:49 -0500
+Processing by ReferralRecipientsController#index as HTML
+  [1m[36mReferralRecipient Load (0.0ms)[0m  [1mSELECT "referral_recipients".* FROM "referral_recipients" [0m
+  Rendered referral_recipients/index.html.erb within layouts/application (45.0ms)
+Completed 200 OK in 76ms (Views: 72.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-01 12:32:49 -0500
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/codes.css?body=1" for 127.0.0.1 at 2012-07-01 12:32:49 -0500
+Served asset /codes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-07-01 12:32:49 -0500
+Served asset /referral-love.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-07-01 12:32:49 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.css?body=1" for 127.0.0.1 at 2012-07-01 12:32:49 -0500
+Served asset /referral_candidates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-07-01 12:32:49 -0500
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-07-01 12:32:49 -0500
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-07-01 12:32:50 -0500
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-01 12:32:50 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-01 12:32:50 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/codes.js?body=1" for 127.0.0.1 at 2012-07-01 12:32:50 -0500
+Served asset /codes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-07-01 12:32:50 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-07-01 12:32:50 -0500
+Served asset /referral_recipients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-07-01 12:32:50 -0500
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-07-01 12:32:50 -0500
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-07-01 12:32:50 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-01 12:32:50 -0500
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/teaserbg.jpg" for 127.0.0.1 at 2012-07-01 12:32:51 -0500
+Served asset /teaserbg.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/small_logotype.jpg" for 127.0.0.1 at 2012-07-01 12:32:51 -0500
+Served asset /small_logotype.jpg - 304 Not Modified (2ms)
+
+
+Started GET "/referral_recipients/new" for 127.0.0.1 at 2012-07-01 12:33:22 -0500
+Processing by ReferralRecipientsController#new as HTML
+  Rendered referral_recipients/_form.html.erb (2.0ms)
+  Rendered referral_recipients/new.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 35ms (Views: 35.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-01 12:33:23 -0500
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/codes.css?body=1" for 127.0.0.1 at 2012-07-01 12:33:23 -0500
+Served asset /codes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.css?body=1" for 127.0.0.1 at 2012-07-01 12:33:23 -0500
+Served asset /referral_candidates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-07-01 12:33:23 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-07-01 12:33:23 -0500
+Served asset /referral-love.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-07-01 12:33:23 -0500
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-07-01 12:33:23 -0500
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-07-01 12:33:23 -0500
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-01 12:33:23 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-01 12:33:23 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/codes.js?body=1" for 127.0.0.1 at 2012-07-01 12:33:23 -0500
+Served asset /codes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-07-01 12:33:23 -0500
+Served asset /referral_candidates.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-07-01 12:33:24 -0500
+Served asset /referral_recipients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-07-01 12:33:24 -0500
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-07-01 12:33:24 -0500
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-07-01 12:33:24 -0500
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-01 12:33:24 -0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bar.gif" for 127.0.0.1 at 2012-07-01 12:33:24 -0500
+Served asset /bar.gif - 304 Not Modified (0ms)
+
+
+Started GET "/referral_recipients/new" for 127.0.0.1 at 2012-07-01 12:34:15 -0500
+Processing by ReferralRecipientsController#new as HTML
+  Rendered referral_recipients/_form.html.erb (3.0ms)
+  Rendered referral_recipients/new.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 31ms (Views: 31.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-01 12:34:15 -0500
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/codes.css?body=1" for 127.0.0.1 at 2012-07-01 12:34:15 -0500
+Served asset /codes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-07-01 12:34:15 -0500
+Served asset /referral-love.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.css?body=1" for 127.0.0.1 at 2012-07-01 12:34:15 -0500
+Served asset /referral_candidates.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-07-01 12:34:15 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-07-01 12:34:15 -0500
+Served asset /sessions.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-07-01 12:34:15 -0500
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-07-01 12:34:15 -0500
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-01 12:34:15 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-01 12:34:16 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/codes.js?body=1" for 127.0.0.1 at 2012-07-01 12:34:16 -0500
+Served asset /codes.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-07-01 12:34:16 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-07-01 12:34:16 -0500
+Served asset /referral_recipients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-07-01 12:34:16 -0500
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-07-01 12:34:16 -0500
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-07-01 12:34:16 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-01 12:34:16 -0500
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/referral_recipients/new" for 127.0.0.1 at 2012-07-01 12:34:29 -0500
+Processing by ReferralRecipientsController#new as HTML
+  Rendered referral_recipients/_form.html.erb (3.0ms)
+  Rendered referral_recipients/new.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 69ms (Views: 69.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/codes.css?body=1" for 127.0.0.1 at 2012-07-01 12:34:29 -0500
+Served asset /codes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-01 12:34:29 -0500
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-07-01 12:34:29 -0500
+Served asset /referral-love.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.css?body=1" for 127.0.0.1 at 2012-07-01 12:34:29 -0500
+Served asset /referral_candidates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-07-01 12:34:29 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-07-01 12:34:29 -0500
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-07-01 12:34:30 -0500
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-07-01 12:34:30 -0500
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-01 12:34:30 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-01 12:34:30 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/codes.js?body=1" for 127.0.0.1 at 2012-07-01 12:34:30 -0500
+Served asset /codes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-07-01 12:34:30 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-07-01 12:34:30 -0500
+Served asset /referral_recipients.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-07-01 12:34:30 -0500
+Served asset /sessions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-07-01 12:34:30 -0500
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-07-01 12:34:30 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-01 12:34:30 -0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started POST "/referral_recipients" for 127.0.0.1 at 2012-07-01 12:34:34 -0500
+Processing by ReferralRecipientsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"e6v9BmU6ANcTpB5oVRltVZKH2daCf94RH/WmXT2wPCY=", "referral_recipient"=>{"website"=>""}, "commit"=>"Get Referral"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (3.0ms)[0m  [1mINSERT INTO "referral_recipients" ("created_at", "referral_code", "updated_at", "website") VALUES (?, ?, ?, ?)[0m  [["created_at", Sun, 01 Jul 2012 17:34:34 UTC +00:00], ["referral_code", nil], ["updated_at", Sun, 01 Jul 2012 17:34:34 UTC +00:00], ["website", ""]]
+  [1m[35m (6.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/referral_recipients/32
+Completed 302 Found in 15ms (ActiveRecord: 9.0ms)
+
+
+Started GET "/referral_recipients/32" for 127.0.0.1 at 2012-07-01 12:34:34 -0500
+Processing by ReferralRecipientsController#show as HTML
+  Parameters: {"id"=>"32"}
+  [1m[36mReferralCandidate Load (1.0ms)[0m  [1mSELECT "referral_candidates".* FROM "referral_candidates" WHERE "referral_candidates"."website" = 'Groupon' ORDER BY times_used LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (2.0ms)[0m  [1mUPDATE "referral_candidates" SET "times_used" = '3', "updated_at" = '2012-07-01 17:34:34.676625' WHERE "referral_candidates"."id" = 3[0m
+  [1m[35m (5.0ms)[0m  commit transaction
+  Rendered referral_recipients/show.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 45ms (Views: 30.0ms | ActiveRecord: 8.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-01 12:34:34 -0500
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/codes.css?body=1" for 127.0.0.1 at 2012-07-01 12:34:34 -0500
+Served asset /codes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-07-01 12:34:35 -0500
+Served asset /referral-love.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-07-01 12:34:35 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.css?body=1" for 127.0.0.1 at 2012-07-01 12:34:35 -0500
+Served asset /referral_candidates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-07-01 12:34:35 -0500
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-07-01 12:34:35 -0500
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-07-01 12:34:35 -0500
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-07-01 12:34:35 -0500
+Served asset /static_pages.css - 200 OK (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-07-01 12:34:35 -0500
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/assets/codes.js?body=1" for 127.0.0.1 at 2012-07-01 12:34:35 -0500
+Served asset /codes.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-01 12:34:35 -0500
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-01 12:34:35 -0500
+Served asset /jquery.js - 200 OK (1ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-07-01 12:34:35 -0500
+Served asset /referral_candidates.js - 200 OK (0ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-07-01 12:34:36 -0500
+Served asset /referral_recipients.js - 200 OK (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-07-01 12:34:36 -0500
+Served asset /static_pages.js - 200 OK (1ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-07-01 12:34:36 -0500
+Served asset /sessions.js - 200 OK (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-07-01 12:34:36 -0500
+Served asset /users.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-01 12:34:36 -0500
+Served asset /application.js - 200 OK (4ms)
+
+
+Started GET "/referral_recipients/new" for 127.0.0.1 at 2012-07-01 12:34:45 -0500
+Processing by ReferralRecipientsController#new as HTML
+  Rendered referral_recipients/_form.html.erb (5.0ms)
+  Rendered referral_recipients/new.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 40ms (Views: 39.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-01 12:34:45 -0500
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-07-01 12:34:45 -0500
+Served asset /referral-love.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-07-01 12:34:45 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.css?body=1" for 127.0.0.1 at 2012-07-01 12:34:45 -0500
+Served asset /referral_candidates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/codes.css?body=1" for 127.0.0.1 at 2012-07-01 12:34:45 -0500
+Served asset /codes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-07-01 12:34:45 -0500
+Served asset /sessions.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-07-01 12:34:45 -0500
+Served asset /static_pages.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-07-01 12:34:45 -0500
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-01 12:34:46 -0500
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-01 12:34:46 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/codes.js?body=1" for 127.0.0.1 at 2012-07-01 12:34:46 -0500
+Served asset /codes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-07-01 12:34:46 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-07-01 12:34:46 -0500
+Served asset /referral_recipients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-07-01 12:34:46 -0500
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-07-01 12:34:46 -0500
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-07-01 12:34:46 -0500
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-01 12:34:46 -0500
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/referral_recipients/new" for 127.0.0.1 at 2012-07-01 12:34:55 -0500
+Processing by ReferralRecipientsController#new as HTML
+  Rendered referral_recipients/_form.html.erb (4.0ms)
+  Rendered referral_recipients/new.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 33ms (Views: 32.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-01 12:34:55 -0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/referral_candidates.css?body=1" for 127.0.0.1 at 2012-07-01 12:34:55 -0500
+Served asset /referral_candidates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-07-01 12:34:55 -0500
+Served asset /referral-love.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/codes.css?body=1" for 127.0.0.1 at 2012-07-01 12:34:55 -0500
+Served asset /codes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-07-01 12:34:55 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-07-01 12:34:55 -0500
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-07-01 12:34:55 -0500
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-07-01 12:34:56 -0500
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-01 12:34:56 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-01 12:34:56 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/codes.js?body=1" for 127.0.0.1 at 2012-07-01 12:34:56 -0500
+Served asset /codes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-07-01 12:34:56 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-07-01 12:34:56 -0500
+Served asset /referral_recipients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-07-01 12:34:56 -0500
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-07-01 12:34:56 -0500
+Served asset /static_pages.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-07-01 12:34:56 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-01 12:34:56 -0500
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/referral_recipients/new" for 127.0.0.1 at 2012-07-01 12:34:59 -0500
+Processing by ReferralRecipientsController#new as HTML
+  Rendered referral_recipients/_form.html.erb (2.0ms)
+  Rendered referral_recipients/new.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 36ms (Views: 36.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-01 12:34:59 -0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-07-01 12:34:59 -0500
+Served asset /referral-love.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/codes.css?body=1" for 127.0.0.1 at 2012-07-01 12:34:59 -0500
+Served asset /codes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.css?body=1" for 127.0.0.1 at 2012-07-01 12:34:59 -0500
+Served asset /referral_candidates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-07-01 12:34:59 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-07-01 12:34:59 -0500
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-07-01 12:34:59 -0500
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-07-01 12:34:59 -0500
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-01 12:34:59 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-01 12:35:00 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/codes.js?body=1" for 127.0.0.1 at 2012-07-01 12:35:00 -0500
+Served asset /codes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-07-01 12:35:00 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-07-01 12:35:00 -0500
+Served asset /referral_recipients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-07-01 12:35:00 -0500
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-07-01 12:35:00 -0500
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-07-01 12:35:00 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-01 12:35:00 -0500
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/referral_recipients/new" for 127.0.0.1 at 2012-07-01 12:35:16 -0500
+Processing by ReferralRecipientsController#new as HTML
+  Rendered referral_recipients/_form.html.erb (1.0ms)
+  Rendered referral_recipients/new.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 69ms (Views: 69.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-01 12:35:16 -0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-07-01 12:35:16 -0500
+Served asset /referral-love.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/codes.css?body=1" for 127.0.0.1 at 2012-07-01 12:35:16 -0500
+Served asset /codes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.css?body=1" for 127.0.0.1 at 2012-07-01 12:35:16 -0500
+Served asset /referral_candidates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-07-01 12:35:16 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-07-01 12:35:16 -0500
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-07-01 12:35:16 -0500
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-07-01 12:35:16 -0500
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-01 12:35:16 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-01 12:35:16 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/codes.js?body=1" for 127.0.0.1 at 2012-07-01 12:35:16 -0500
+Served asset /codes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-07-01 12:35:17 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-07-01 12:35:17 -0500
+Served asset /referral_recipients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-07-01 12:35:17 -0500
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-07-01 12:35:17 -0500
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-07-01 12:35:17 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-01 12:35:17 -0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/referral_recipients/new" for 127.0.0.1 at 2012-07-01 12:35:37 -0500
+Processing by ReferralRecipientsController#new as HTML
+  Rendered referral_recipients/_form.html.erb (4.0ms)
+  Rendered referral_recipients/new.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 35ms (Views: 35.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-01 12:35:38 -0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-07-01 12:35:38 -0500
+Served asset /referral-love.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/codes.css?body=1" for 127.0.0.1 at 2012-07-01 12:35:38 -0500
+Served asset /codes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.css?body=1" for 127.0.0.1 at 2012-07-01 12:35:38 -0500
+Served asset /referral_candidates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-07-01 12:35:38 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-07-01 12:35:38 -0500
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-07-01 12:35:38 -0500
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-07-01 12:35:38 -0500
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-01 12:35:38 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-01 12:35:38 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/codes.js?body=1" for 127.0.0.1 at 2012-07-01 12:35:38 -0500
+Served asset /codes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-07-01 12:35:38 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-07-01 12:35:38 -0500
+Served asset /referral_recipients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-07-01 12:35:39 -0500
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-07-01 12:35:39 -0500
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-07-01 12:35:39 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-01 12:35:39 -0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/referral_recipients/new" for 127.0.0.1 at 2012-07-01 12:35:52 -0500
+Processing by ReferralRecipientsController#new as HTML
+  Rendered referral_recipients/_form.html.erb (5.0ms)
+  Rendered referral_recipients/new.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 49ms (Views: 47.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-01 12:35:52 -0500
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/codes.css?body=1" for 127.0.0.1 at 2012-07-01 12:35:52 -0500
+Served asset /codes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.css?body=1" for 127.0.0.1 at 2012-07-01 12:35:52 -0500
+Served asset /referral_candidates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-07-01 12:35:52 -0500
+Served asset /referral-love.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-07-01 12:35:52 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-07-01 12:35:53 -0500
+Served asset /sessions.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-07-01 12:35:53 -0500
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-07-01 12:35:53 -0500
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-01 12:35:53 -0500
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-01 12:35:53 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/codes.js?body=1" for 127.0.0.1 at 2012-07-01 12:35:53 -0500
+Served asset /codes.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-07-01 12:35:53 -0500
+Served asset /referral_recipients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-07-01 12:35:53 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-07-01 12:35:53 -0500
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-07-01 12:35:53 -0500
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-07-01 12:35:53 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-01 12:35:53 -0500
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/referral_recipients/new" for 127.0.0.1 at 2012-07-01 12:36:03 -0500
+Processing by ReferralRecipientsController#new as HTML
+  Rendered referral_recipients/_form.html.erb (4.0ms)
+  Rendered referral_recipients/new.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 39ms (Views: 37.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-01 12:36:03 -0500
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-07-01 12:36:03 -0500
+Served asset /referral-love.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.css?body=1" for 127.0.0.1 at 2012-07-01 12:36:03 -0500
+Served asset /referral_candidates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/codes.css?body=1" for 127.0.0.1 at 2012-07-01 12:36:04 -0500
+Served asset /codes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-07-01 12:36:04 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-07-01 12:36:04 -0500
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-07-01 12:36:04 -0500
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-07-01 12:36:04 -0500
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-01 12:36:04 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-01 12:36:04 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/codes.js?body=1" for 127.0.0.1 at 2012-07-01 12:36:04 -0500
+Served asset /codes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-07-01 12:36:04 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-07-01 12:36:04 -0500
+Served asset /referral_recipients.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-07-01 12:36:04 -0500
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-07-01 12:36:04 -0500
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-07-01 12:36:04 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-01 12:36:04 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/referral_recipients/new" for 127.0.0.1 at 2012-07-01 12:36:19 -0500
+Processing by ReferralRecipientsController#new as HTML
+  Rendered referral_recipients/_form.html.erb (5.0ms)
+  Rendered referral_recipients/new.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 36ms (Views: 36.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-07-01 12:36:19 -0500
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/referral_candidates.css?body=1" for 127.0.0.1 at 2012-07-01 12:36:19 -0500
+Served asset /referral_candidates.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/codes.css?body=1" for 127.0.0.1 at 2012-07-01 12:36:19 -0500
+Served asset /codes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-07-01 12:36:19 -0500
+Served asset /referral-love.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-01 12:36:19 -0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-07-01 12:36:19 -0500
+Served asset /sessions.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-07-01 12:36:20 -0500
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-07-01 12:36:20 -0500
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-01 12:36:20 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-01 12:36:20 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/codes.js?body=1" for 127.0.0.1 at 2012-07-01 12:36:20 -0500
+Served asset /codes.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-07-01 12:36:20 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-07-01 12:36:20 -0500
+Served asset /referral_recipients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-07-01 12:36:20 -0500
+Served asset /sessions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-07-01 12:36:20 -0500
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-07-01 12:36:20 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-01 12:36:20 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/referral_recipients/new" for 127.0.0.1 at 2012-07-01 12:36:32 -0500
+Processing by ReferralRecipientsController#new as HTML
+  Rendered referral_recipients/_form.html.erb (6.0ms)
+  Rendered referral_recipients/new.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 40ms (Views: 40.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/codes.css?body=1" for 127.0.0.1 at 2012-07-01 12:36:33 -0500
+Served asset /codes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-07-01 12:36:33 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-01 12:36:33 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-07-01 12:36:33 -0500
+Served asset /referral-love.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/referral_candidates.css?body=1" for 127.0.0.1 at 2012-07-01 12:36:33 -0500
+Served asset /referral_candidates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-07-01 12:36:33 -0500
+Served asset /sessions.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-07-01 12:36:33 -0500
+Served asset /static_pages.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-07-01 12:36:33 -0500
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-01 12:36:33 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-01 12:36:33 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/codes.js?body=1" for 127.0.0.1 at 2012-07-01 12:36:33 -0500
+Served asset /codes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-07-01 12:36:33 -0500
+Served asset /referral_candidates.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-07-01 12:36:33 -0500
+Served asset /referral_recipients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-07-01 12:36:33 -0500
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-07-01 12:36:34 -0500
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-07-01 12:36:34 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-01 12:36:34 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2012-07-01 12:37:11 -0500
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 30ms (Views: 30.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-01 12:37:12 -0500
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/codes.css?body=1" for 127.0.0.1 at 2012-07-01 12:37:12 -0500
+Served asset /codes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-07-01 12:37:12 -0500
+Served asset /referral-love.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.css?body=1" for 127.0.0.1 at 2012-07-01 12:37:12 -0500
+Served asset /referral_candidates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-07-01 12:37:12 -0500
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-07-01 12:37:12 -0500
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-07-01 12:37:12 -0500
+Served asset /static_pages.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-07-01 12:37:12 -0500
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-01 12:37:12 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-01 12:37:12 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/codes.js?body=1" for 127.0.0.1 at 2012-07-01 12:37:12 -0500
+Served asset /codes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-07-01 12:37:12 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-07-01 12:37:12 -0500
+Served asset /referral_recipients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-07-01 12:37:12 -0500
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-07-01 12:37:13 -0500
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-07-01 12:37:13 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-01 12:37:13 -0500
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/teaserbg.jpg" for 127.0.0.1 at 2012-07-01 12:37:13 -0500
+Served asset /teaserbg.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/step.gif" for 127.0.0.1 at 2012-07-01 12:37:13 -0500
+Served asset /step.gif - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bar.gif" for 127.0.0.1 at 2012-07-01 12:37:13 -0500
+Served asset /bar.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/small_logotype.jpg" for 127.0.0.1 at 2012-07-01 12:37:13 -0500
+Served asset /small_logotype.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/sessions/login" for 127.0.0.1 at 2012-07-01 12:37:14 -0500
+
+ActionController::RoutingError (No route matches [GET] "/sessions/login"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  c:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  c:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  c:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/session/login" for 127.0.0.1 at 2012-07-01 12:37:19 -0500
+
+ActionController::RoutingError (No route matches [GET] "/session/login"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  c:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  c:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  c:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/sessions/new" for 127.0.0.1 at 2012-07-01 12:37:31 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 34ms (Views: 33.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/codes.css?body=1" for 127.0.0.1 at 2012-07-01 12:37:31 -0500
+Served asset /codes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-07-01 12:37:31 -0500
+Served asset /referral-love.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.css?body=1" for 127.0.0.1 at 2012-07-01 12:37:31 -0500
+Served asset /referral_candidates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-07-01 12:37:31 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-01 12:37:31 -0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-07-01 12:37:31 -0500
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-07-01 12:37:31 -0500
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-07-01 12:37:31 -0500
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-01 12:37:31 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-01 12:37:31 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/codes.js?body=1" for 127.0.0.1 at 2012-07-01 12:37:32 -0500
+Served asset /codes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-07-01 12:37:32 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-07-01 12:37:32 -0500
+Served asset /referral_recipients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-07-01 12:37:32 -0500
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-07-01 12:37:32 -0500
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-07-01 12:37:32 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-01 12:37:32 -0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/sessions/new" for 127.0.0.1 at 2012-07-01 12:38:00 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 41ms (Views: 39.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-01 12:38:00 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-07-01 12:38:00 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.css?body=1" for 127.0.0.1 at 2012-07-01 12:38:00 -0500
+Served asset /referral_candidates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/codes.css?body=1" for 127.0.0.1 at 2012-07-01 12:38:00 -0500
+Served asset /codes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-07-01 12:38:00 -0500
+Served asset /referral-love.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-07-01 12:38:00 -0500
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-07-01 12:38:00 -0500
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-07-01 12:38:00 -0500
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-01 12:38:01 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-01 12:38:01 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/codes.js?body=1" for 127.0.0.1 at 2012-07-01 12:38:01 -0500
+Served asset /codes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-07-01 12:38:01 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-07-01 12:38:01 -0500
+Served asset /referral_recipients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-07-01 12:38:01 -0500
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-07-01 12:38:01 -0500
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-07-01 12:38:01 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-01 12:38:01 -0500
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/sessions/new" for 127.0.0.1 at 2012-07-01 12:38:29 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 39ms (Views: 39.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-01 12:38:29 -0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/codes.css?body=1" for 127.0.0.1 at 2012-07-01 12:38:29 -0500
+Served asset /codes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-07-01 12:38:29 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.css?body=1" for 127.0.0.1 at 2012-07-01 12:38:29 -0500
+Served asset /referral_candidates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-07-01 12:38:29 -0500
+Served asset /referral-love.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-07-01 12:38:30 -0500
+Served asset /sessions.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-07-01 12:38:30 -0500
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-07-01 12:38:30 -0500
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-01 12:38:30 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-01 12:38:30 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/codes.js?body=1" for 127.0.0.1 at 2012-07-01 12:38:30 -0500
+Served asset /codes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-07-01 12:38:30 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-07-01 12:38:30 -0500
+Served asset /referral_recipients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-07-01 12:38:30 -0500
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-07-01 12:38:30 -0500
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-07-01 12:38:30 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-01 12:38:30 -0500
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/sessions/new" for 127.0.0.1 at 2012-07-01 12:38:40 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 28ms (Views: 28.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/codes.css?body=1" for 127.0.0.1 at 2012-07-01 12:38:41 -0500
+Served asset /codes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-07-01 12:38:41 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-07-01 12:38:41 -0500
+Served asset /referral-love.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-01 12:38:41 -0500
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/referral_candidates.css?body=1" for 127.0.0.1 at 2012-07-01 12:38:41 -0500
+Served asset /referral_candidates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-07-01 12:38:41 -0500
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-07-01 12:38:41 -0500
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-07-01 12:38:41 -0500
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-01 12:38:41 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-01 12:38:41 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/codes.js?body=1" for 127.0.0.1 at 2012-07-01 12:38:41 -0500
+Served asset /codes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-07-01 12:38:41 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-07-01 12:38:42 -0500
+Served asset /referral_recipients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-07-01 12:38:42 -0500
+Served asset /sessions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-07-01 12:38:42 -0500
+Served asset /static_pages.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-07-01 12:38:42 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-01 12:38:42 -0500
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/users/edit" for 127.0.0.1 at 2012-07-01 12:39:36 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"edit"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "edit"]]
+Completed 500 Internal Server Error in 5ms
+
+ActiveRecord::RecordNotFound (Couldn't find User with id=edit):
+  app/controllers/users_controller.rb:20:in `show'
+
+
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (86.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2012-07-01 12:39:45 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 89ms (Views: 69.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/codes.css?body=1" for 127.0.0.1 at 2012-07-01 12:39:45 -0500
+Served asset /codes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.css?body=1" for 127.0.0.1 at 2012-07-01 12:39:45 -0500
+Served asset /referral_candidates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-07-01 12:39:45 -0500
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-07-01 12:39:45 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-01 12:39:45 -0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-07-01 12:39:46 -0500
+Served asset /referral-love.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-07-01 12:39:46 -0500
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-07-01 12:39:46 -0500
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-01 12:39:46 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-01 12:39:46 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/codes.js?body=1" for 127.0.0.1 at 2012-07-01 12:39:46 -0500
+Served asset /codes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-07-01 12:39:46 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-07-01 12:39:46 -0500
+Served asset /referral_recipients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-07-01 12:39:46 -0500
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-07-01 12:39:46 -0500
+Served asset /static_pages.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-07-01 12:39:46 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-01 12:39:46 -0500
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/small_logotype.jpg" for 127.0.0.1 at 2012-07-01 12:39:47 -0500
+Served asset /small_logotype.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2012-07-01 12:40:54 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 38ms (Views: 38.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-07-01 12:40:55 -0500
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/referral_candidates.css?body=1" for 127.0.0.1 at 2012-07-01 12:40:55 -0500
+Served asset /referral_candidates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/codes.css?body=1" for 127.0.0.1 at 2012-07-01 12:40:55 -0500
+Served asset /codes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-01 12:40:55 -0500
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-07-01 12:40:55 -0500
+Served asset /referral-love.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-07-01 12:40:55 -0500
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-07-01 12:40:55 -0500
+Served asset /static_pages.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-07-01 12:40:55 -0500
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-01 12:40:55 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-01 12:40:55 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/codes.js?body=1" for 127.0.0.1 at 2012-07-01 12:40:55 -0500
+Served asset /codes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-07-01 12:40:55 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-07-01 12:40:55 -0500
+Served asset /referral_recipients.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-07-01 12:40:55 -0500
+Served asset /sessions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-07-01 12:40:56 -0500
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-07-01 12:40:56 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-01 12:40:56 -0500
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2012-07-01 12:42:52 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 30ms (Views: 28.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/codes.css?body=1" for 127.0.0.1 at 2012-07-01 12:42:52 -0500
+Served asset /codes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-07-01 12:42:52 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.css?body=1" for 127.0.0.1 at 2012-07-01 12:42:52 -0500
+Served asset /referral_candidates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-07-01 12:42:52 -0500
+Served asset /referral-love.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-01 12:42:52 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-07-01 12:42:52 -0500
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-07-01 12:42:53 -0500
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-07-01 12:42:53 -0500
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-01 12:42:53 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-01 12:42:53 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/codes.js?body=1" for 127.0.0.1 at 2012-07-01 12:42:53 -0500
+Served asset /codes.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-07-01 12:42:53 -0500
+Served asset /referral_candidates.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-07-01 12:42:53 -0500
+Served asset /referral_recipients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-07-01 12:42:53 -0500
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-07-01 12:42:53 -0500
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-07-01 12:42:53 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-01 12:42:53 -0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/teaserbg.jpg" for 127.0.0.1 at 2012-07-01 12:42:54 -0500
+Served asset /teaserbg.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2012-07-01 12:44:29 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 38ms (Views: 37.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/codes.css?body=1" for 127.0.0.1 at 2012-07-01 12:44:29 -0500
+Served asset /codes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-07-01 12:44:29 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-01 12:44:29 -0500
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-07-01 12:44:29 -0500
+Served asset /referral-love.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.css?body=1" for 127.0.0.1 at 2012-07-01 12:44:29 -0500
+Served asset /referral_candidates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-07-01 12:44:29 -0500
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-07-01 12:44:29 -0500
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-07-01 12:44:29 -0500
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-01 12:44:29 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/codes.js?body=1" for 127.0.0.1 at 2012-07-01 12:44:29 -0500
+Served asset /codes.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-07-01 12:44:29 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-07-01 12:44:30 -0500
+Served asset /referral_recipients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-07-01 12:44:30 -0500
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-07-01 12:44:30 -0500
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-07-01 12:44:30 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-01 12:44:30 -0500
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2012-07-01 12:44:47 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 38ms (Views: 37.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/referral_candidates.css?body=1" for 127.0.0.1 at 2012-07-01 12:44:47 -0500
+Served asset /referral_candidates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-01 12:44:47 -0500
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-07-01 12:44:47 -0500
+Served asset /referral-love.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/codes.css?body=1" for 127.0.0.1 at 2012-07-01 12:44:47 -0500
+Served asset /codes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-07-01 12:44:47 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-07-01 12:44:48 -0500
+Served asset /sessions.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-07-01 12:44:48 -0500
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-07-01 12:44:48 -0500
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-01 12:44:48 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/codes.js?body=1" for 127.0.0.1 at 2012-07-01 12:44:48 -0500
+Served asset /codes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-07-01 12:44:48 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-07-01 12:44:48 -0500
+Served asset /referral_recipients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-07-01 12:44:48 -0500
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-07-01 12:44:48 -0500
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-07-01 12:44:48 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-01 12:44:48 -0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2012-07-01 12:44:58 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 35ms (Views: 34.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-07-01 12:44:58 -0500
+Served asset /referral-love.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/codes.css?body=1" for 127.0.0.1 at 2012-07-01 12:44:59 -0500
+Served asset /codes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.css?body=1" for 127.0.0.1 at 2012-07-01 12:44:59 -0500
+Served asset /referral_candidates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-07-01 12:44:59 -0500
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-01 12:44:59 -0500
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-07-01 12:44:59 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-07-01 12:44:59 -0500
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-07-01 12:44:59 -0500
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-01 12:44:59 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-01 12:44:59 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/codes.js?body=1" for 127.0.0.1 at 2012-07-01 12:44:59 -0500
+Served asset /codes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-07-01 12:44:59 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-07-01 12:44:59 -0500
+Served asset /referral_recipients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-07-01 12:44:59 -0500
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-07-01 12:44:59 -0500
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-07-01 12:44:59 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-01 12:45:00 -0500
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2012-07-01 12:46:28 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (3.0ms)
+Compiled referral-love.css  (0ms)  (pid 11496)
+Compiled application.css  (6ms)  (pid 11496)
+Completed 200 OK in 229ms (Views: 227.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-01 12:46:29 -0500
+Served asset /application.css - 304 Not Modified (128ms)
+
+
+Started GET "/assets/codes.css?body=1" for 127.0.0.1 at 2012-07-01 12:46:29 -0500
+Served asset /codes.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-07-01 12:46:29 -0500
+Served asset /referral-love.css - 200 OK (104ms)
+
+
+Started GET "/assets/referral_candidates.css?body=1" for 127.0.0.1 at 2012-07-01 12:46:29 -0500
+Served asset /referral_candidates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-07-01 12:46:29 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-07-01 12:46:29 -0500
+Served asset /sessions.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-07-01 12:46:29 -0500
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-07-01 12:46:30 -0500
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-01 12:46:30 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-01 12:46:30 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/codes.js?body=1" for 127.0.0.1 at 2012-07-01 12:46:30 -0500
+Served asset /codes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-07-01 12:46:30 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-07-01 12:46:30 -0500
+Served asset /referral_recipients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-07-01 12:46:30 -0500
+Served asset /sessions.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-07-01 12:46:30 -0500
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-07-01 12:46:30 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-01 12:46:30 -0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/teaserbg.jpg" for 127.0.0.1 at 2012-07-01 12:46:31 -0500
+Served asset /teaserbg.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/small_logotype.jpg" for 127.0.0.1 at 2012-07-01 12:46:31 -0500
+Served asset /small_logotype.jpg - 304 Not Modified (3ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2012-07-01 12:47:13 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (3.0ms)
+Compiled referral-love.css  (1ms)  (pid 11496)
+Compiled application.css  (9ms)  (pid 11496)
+Completed 200 OK in 236ms (Views: 236.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-01 12:47:14 -0500
+Served asset /application.css - 304 Not Modified (115ms)
+
+
+Started GET "/assets/codes.css?body=1" for 127.0.0.1 at 2012-07-01 12:47:14 -0500
+Served asset /codes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.css?body=1" for 127.0.0.1 at 2012-07-01 12:47:14 -0500
+Served asset /referral_candidates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-07-01 12:47:14 -0500
+Served asset /referral-love.css - 200 OK (76ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-07-01 12:47:14 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-07-01 12:47:14 -0500
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-07-01 12:47:14 -0500
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-07-01 12:47:14 -0500
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-01 12:47:14 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-01 12:47:14 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/codes.js?body=1" for 127.0.0.1 at 2012-07-01 12:47:14 -0500
+Served asset /codes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-07-01 12:47:15 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-07-01 12:47:15 -0500
+Served asset /referral_recipients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-07-01 12:47:15 -0500
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-07-01 12:47:15 -0500
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-07-01 12:47:15 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-01 12:47:15 -0500
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/teaserbg.jpg" for 127.0.0.1 at 2012-07-01 12:47:15 -0500
+Served asset /teaserbg.jpg - 304 Not Modified (3ms)
+
+
+Started GET "/assets/small_logotype.jpg" for 127.0.0.1 at 2012-07-01 12:47:15 -0500
+Served asset /small_logotype.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2012-07-01 12:47:58 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (3.0ms)
+Compiled referral-love.css  (0ms)  (pid 11496)
+Compiled application.css  (8ms)  (pid 11496)
+Completed 200 OK in 222ms (Views: 222.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-01 12:47:59 -0500
+Served asset /application.css - 304 Not Modified (117ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-07-01 12:47:59 -0500
+Served asset /referral-love.css - 200 OK (96ms)
+
+
+Started GET "/assets/referral_candidates.css?body=1" for 127.0.0.1 at 2012-07-01 12:47:59 -0500
+Served asset /referral_candidates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/codes.css?body=1" for 127.0.0.1 at 2012-07-01 12:47:59 -0500
+Served asset /codes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-07-01 12:47:59 -0500
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-07-01 12:47:59 -0500
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-07-01 12:47:59 -0500
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-07-01 12:47:59 -0500
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-01 12:47:59 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-01 12:47:59 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/codes.js?body=1" for 127.0.0.1 at 2012-07-01 12:47:59 -0500
+Served asset /codes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-07-01 12:47:59 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-07-01 12:48:00 -0500
+Served asset /referral_recipients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-07-01 12:48:00 -0500
+Served asset /sessions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-07-01 12:48:00 -0500
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-07-01 12:48:00 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-01 12:48:00 -0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/small_logotype.jpg" for 127.0.0.1 at 2012-07-01 12:48:00 -0500
+Served asset /small_logotype.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/teaserbg.jpg" for 127.0.0.1 at 2012-07-01 12:48:00 -0500
+Served asset /teaserbg.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2012-07-01 12:48:50 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (3.0ms)
+Compiled referral-love.css  (1ms)  (pid 11496)
+Compiled application.css  (9ms)  (pid 11496)
+Completed 200 OK in 216ms (Views: 216.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/codes.css?body=1" for 127.0.0.1 at 2012-07-01 12:48:50 -0500
+Served asset /codes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-01 12:48:51 -0500
+Served asset /application.css - 304 Not Modified (112ms)
+
+
+Started GET "/assets/referral_candidates.css?body=1" for 127.0.0.1 at 2012-07-01 12:48:51 -0500
+Served asset /referral_candidates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-07-01 12:48:51 -0500
+Served asset /referral-love.css - 200 OK (93ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-07-01 12:48:51 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-07-01 12:48:51 -0500
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-07-01 12:48:51 -0500
+Served asset /static_pages.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-07-01 12:48:51 -0500
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-01 12:48:51 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-01 12:48:51 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/codes.js?body=1" for 127.0.0.1 at 2012-07-01 12:48:51 -0500
+Served asset /codes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-07-01 12:48:51 -0500
+Served asset /referral_candidates.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-07-01 12:48:51 -0500
+Served asset /referral_recipients.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-07-01 12:48:52 -0500
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-07-01 12:48:52 -0500
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-07-01 12:48:52 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-01 12:48:52 -0500
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/small_logotype.jpg" for 127.0.0.1 at 2012-07-01 12:48:52 -0500
+Served asset /small_logotype.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teaserbg.jpg" for 127.0.0.1 at 2012-07-01 12:48:52 -0500
+Served asset /teaserbg.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2012-07-01 12:50:44 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (3.0ms)
+Compiled referral-love.css  (0ms)  (pid 11496)
+Compiled application.css  (9ms)  (pid 11496)
+Completed 200 OK in 227ms (Views: 227.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/codes.css?body=1" for 127.0.0.1 at 2012-07-01 12:50:45 -0500
+Served asset /codes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-07-01 12:50:45 -0500
+Served asset /referral-love.css - 200 OK (102ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-01 12:50:45 -0500
+Served asset /application.css - 304 Not Modified (119ms)
+
+
+Started GET "/assets/referral_candidates.css?body=1" for 127.0.0.1 at 2012-07-01 12:50:45 -0500
+Served asset /referral_candidates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-07-01 12:50:45 -0500
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-07-01 12:50:45 -0500
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-07-01 12:50:45 -0500
+Served asset /static_pages.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-07-01 12:50:45 -0500
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-01 12:50:46 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/codes.js?body=1" for 127.0.0.1 at 2012-07-01 12:50:46 -0500
+Served asset /codes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-07-01 12:50:46 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-07-01 12:50:46 -0500
+Served asset /referral_recipients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-07-01 12:50:46 -0500
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-07-01 12:50:46 -0500
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-07-01 12:50:46 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-01 12:50:46 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teaserbg.jpg" for 127.0.0.1 at 2012-07-01 12:50:46 -0500
+Served asset /teaserbg.jpg - 304 Not Modified (3ms)
+
+
+Started GET "/assets/small_logotype.jpg" for 127.0.0.1 at 2012-07-01 12:50:46 -0500
+Served asset /small_logotype.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2012-07-01 12:53:27 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (4.0ms)
+Compiled referral-love.css  (0ms)  (pid 11496)
+Compiled application.css  (12ms)  (pid 11496)
+Completed 200 OK in 236ms (Views: 236.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-01 12:53:27 -0500
+Served asset /application.css - 304 Not Modified (135ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-07-01 12:53:28 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.css?body=1" for 127.0.0.1 at 2012-07-01 12:53:28 -0500
+Served asset /referral_candidates.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/codes.css?body=1" for 127.0.0.1 at 2012-07-01 12:53:28 -0500
+Served asset /codes.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-07-01 12:53:28 -0500
+Served asset /referral-love.css - 200 OK (100ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-07-01 12:53:28 -0500
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-07-01 12:53:28 -0500
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-07-01 12:53:28 -0500
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-01 12:53:28 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-01 12:53:28 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/codes.js?body=1" for 127.0.0.1 at 2012-07-01 12:53:28 -0500
+Served asset /codes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-07-01 12:53:28 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-07-01 12:53:28 -0500
+Served asset /referral_recipients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-07-01 12:53:28 -0500
+Served asset /sessions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-07-01 12:53:28 -0500
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-07-01 12:53:29 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-01 12:53:29 -0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/teaserbg.jpg" for 127.0.0.1 at 2012-07-01 12:53:29 -0500
+Served asset /teaserbg.jpg - 304 Not Modified (3ms)
+
+
+Started GET "/assets/small_logotype.jpg" for 127.0.0.1 at 2012-07-01 12:53:29 -0500
+Served asset /small_logotype.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2012-07-01 12:54:03 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (5.0ms)
+Compiled referral-love.css  (0ms)  (pid 11496)
+Compiled application.css  (8ms)  (pid 11496)
+Completed 200 OK in 180ms (Views: 179.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-01 12:54:03 -0500
+Served asset /application.css - 304 Not Modified (83ms)
+
+
+Started GET "/assets/codes.css?body=1" for 127.0.0.1 at 2012-07-01 12:54:03 -0500
+Served asset /codes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.css?body=1" for 127.0.0.1 at 2012-07-01 12:54:03 -0500
+Served asset /referral_candidates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-07-01 12:54:03 -0500
+Served asset /referral-love.css - 200 OK (93ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-07-01 12:54:03 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-07-01 12:54:04 -0500
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-07-01 12:54:04 -0500
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-07-01 12:54:04 -0500
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-01 12:54:04 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-01 12:54:04 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/codes.js?body=1" for 127.0.0.1 at 2012-07-01 12:54:04 -0500
+Served asset /codes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-07-01 12:54:04 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-07-01 12:54:04 -0500
+Served asset /referral_recipients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-07-01 12:54:04 -0500
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-07-01 12:54:04 -0500
+Served asset /static_pages.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-07-01 12:54:04 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-01 12:54:04 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teaserbg.jpg" for 127.0.0.1 at 2012-07-01 12:54:05 -0500
+Served asset /teaserbg.jpg - 304 Not Modified (3ms)
+
+
+Started GET "/assets/small_logotype.jpg" for 127.0.0.1 at 2012-07-01 12:54:05 -0500
+Served asset /small_logotype.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2012-07-01 12:54:30 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (2.0ms)
+Compiled referral-love.css  (1ms)  (pid 11496)
+Compiled application.css  (8ms)  (pid 11496)
+Completed 200 OK in 240ms (Views: 239.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/codes.css?body=1" for 127.0.0.1 at 2012-07-01 12:54:30 -0500
+Served asset /codes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-07-01 12:54:31 -0500
+Served asset /referral-love.css - 200 OK (74ms)
+
+
+Started GET "/assets/referral_candidates.css?body=1" for 127.0.0.1 at 2012-07-01 12:54:31 -0500
+Served asset /referral_candidates.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-01 12:54:31 -0500
+Served asset /application.css - 304 Not Modified (131ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-07-01 12:54:31 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-07-01 12:54:31 -0500
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-07-01 12:54:31 -0500
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-07-01 12:54:31 -0500
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-01 12:54:31 -0500
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-01 12:54:31 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/codes.js?body=1" for 127.0.0.1 at 2012-07-01 12:54:31 -0500
+Served asset /codes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-07-01 12:54:31 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-07-01 12:54:31 -0500
+Served asset /referral_recipients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-07-01 12:54:32 -0500
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-07-01 12:54:32 -0500
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-07-01 12:54:32 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-01 12:54:32 -0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/small_logotype.jpg" for 127.0.0.1 at 2012-07-01 12:54:32 -0500
+Served asset /small_logotype.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teaserbg.jpg" for 127.0.0.1 at 2012-07-01 12:54:32 -0500
+Served asset /teaserbg.jpg - 304 Not Modified (16ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2012-07-01 12:54:50 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 33ms (Views: 31.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/codes.css?body=1" for 127.0.0.1 at 2012-07-01 12:54:50 -0500
+Served asset /codes.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-07-01 12:54:50 -0500
+Served asset /referral-love.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-01 12:54:50 -0500
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-07-01 12:54:50 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-07-01 12:54:50 -0500
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.css?body=1" for 127.0.0.1 at 2012-07-01 12:54:50 -0500
+Served asset /referral_candidates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-07-01 12:54:50 -0500
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-07-01 12:54:50 -0500
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-01 12:54:50 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-01 12:54:50 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/codes.js?body=1" for 127.0.0.1 at 2012-07-01 12:54:50 -0500
+Served asset /codes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-07-01 12:54:51 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-07-01 12:54:51 -0500
+Served asset /referral_recipients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-07-01 12:54:51 -0500
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-07-01 12:54:51 -0500
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-07-01 12:54:51 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-01 12:54:51 -0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2012-07-01 12:56:04 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 37ms (Views: 36.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-01 12:56:04 -0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/codes.css?body=1" for 127.0.0.1 at 2012-07-01 12:56:04 -0500
+Served asset /codes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-07-01 12:56:04 -0500
+Served asset /referral-love.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-07-01 12:56:04 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.css?body=1" for 127.0.0.1 at 2012-07-01 12:56:04 -0500
+Served asset /referral_candidates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-07-01 12:56:04 -0500
+Served asset /sessions.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-07-01 12:56:04 -0500
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-07-01 12:56:04 -0500
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-01 12:56:04 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-01 12:56:04 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/codes.js?body=1" for 127.0.0.1 at 2012-07-01 12:56:04 -0500
+Served asset /codes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-07-01 12:56:05 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-07-01 12:56:05 -0500
+Served asset /referral_recipients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-07-01 12:56:05 -0500
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-07-01 12:56:05 -0500
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-07-01 12:56:05 -0500
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-01 12:56:05 -0500
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2012-07-01 12:57:18 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (3.0ms)
+Compiled referral-love.css  (1ms)  (pid 11496)
+Compiled application.css  (6ms)  (pid 11496)
+Completed 200 OK in 227ms (Views: 226.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-01 12:57:18 -0500
+Served asset /application.css - 304 Not Modified (115ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-07-01 12:57:18 -0500
+Served asset /referral-love.css - 200 OK (93ms)
+
+
+Started GET "/assets/codes.css?body=1" for 127.0.0.1 at 2012-07-01 12:57:18 -0500
+Served asset /codes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.css?body=1" for 127.0.0.1 at 2012-07-01 12:57:18 -0500
+Served asset /referral_candidates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-07-01 12:57:19 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-07-01 12:57:19 -0500
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-07-01 12:57:19 -0500
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-07-01 12:57:19 -0500
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-01 12:57:19 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-01 12:57:19 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/codes.js?body=1" for 127.0.0.1 at 2012-07-01 12:57:19 -0500
+Served asset /codes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-07-01 12:57:19 -0500
+Served asset /referral_candidates.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-07-01 12:57:19 -0500
+Served asset /referral_recipients.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-07-01 12:57:19 -0500
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-07-01 12:57:19 -0500
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-07-01 12:57:19 -0500
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-01 12:57:19 -0500
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/small_logotype.jpg" for 127.0.0.1 at 2012-07-01 12:57:20 -0500
+Served asset /small_logotype.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teaserbg.jpg" for 127.0.0.1 at 2012-07-01 12:57:20 -0500
+Served asset /teaserbg.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2012-07-01 12:57:32 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (2.0ms)
+Compiled referral-love.css  (0ms)  (pid 11496)
+Compiled application.css  (6ms)  (pid 11496)
+Completed 200 OK in 250ms (Views: 250.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-07-01 12:57:33 -0500
+Served asset /referral-love.css - 200 OK (115ms)
+
+
+Started GET "/assets/codes.css?body=1" for 127.0.0.1 at 2012-07-01 12:57:33 -0500
+Served asset /codes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-01 12:57:33 -0500
+Served asset /application.css - 304 Not Modified (125ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-07-01 12:57:33 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.css?body=1" for 127.0.0.1 at 2012-07-01 12:57:33 -0500
+Served asset /referral_candidates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-07-01 12:57:33 -0500
+Served asset /sessions.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-07-01 12:57:33 -0500
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-07-01 12:57:33 -0500
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-01 12:57:33 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-01 12:57:33 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/codes.js?body=1" for 127.0.0.1 at 2012-07-01 12:57:34 -0500
+Served asset /codes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-07-01 12:57:34 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-07-01 12:57:34 -0500
+Served asset /referral_recipients.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-07-01 12:57:34 -0500
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-07-01 12:57:34 -0500
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-07-01 12:57:34 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-01 12:57:34 -0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/teaserbg.jpg" for 127.0.0.1 at 2012-07-01 12:57:34 -0500
+Served asset /teaserbg.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/small_logotype.jpg" for 127.0.0.1 at 2012-07-01 12:57:34 -0500
+Served asset /small_logotype.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/logotype.jpg" for 127.0.0.1 at 2012-07-01 12:57:35 -0500
+Served asset /logotype.jpg - 304 Not Modified (77ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2012-07-01 12:57:54 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (2.0ms)
+Compiled referral-love.css  (0ms)  (pid 11496)
+Compiled application.css  (9ms)  (pid 11496)
+Completed 200 OK in 200ms (Views: 200.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/codes.css?body=1" for 127.0.0.1 at 2012-07-01 12:57:55 -0500
+Served asset /codes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-01 12:57:55 -0500
+Served asset /application.css - 304 Not Modified (118ms)
+
+
+Started GET "/assets/referral_candidates.css?body=1" for 127.0.0.1 at 2012-07-01 12:57:55 -0500
+Served asset /referral_candidates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-07-01 12:57:55 -0500
+Served asset /referral-love.css - 200 OK (109ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-07-01 12:57:55 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-07-01 12:57:55 -0500
+Served asset /sessions.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-07-01 12:57:55 -0500
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-07-01 12:57:55 -0500
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-01 12:57:55 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-01 12:57:55 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/codes.js?body=1" for 127.0.0.1 at 2012-07-01 12:57:55 -0500
+Served asset /codes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-07-01 12:57:56 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-07-01 12:57:56 -0500
+Served asset /referral_recipients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-07-01 12:57:56 -0500
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-07-01 12:57:56 -0500
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-07-01 12:57:56 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-01 12:57:56 -0500
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/teaserbg.jpg" for 127.0.0.1 at 2012-07-01 12:57:56 -0500
+Served asset /teaserbg.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/small_logotype.jpg" for 127.0.0.1 at 2012-07-01 12:57:56 -0500
+Served asset /small_logotype.jpg - 304 Not Modified (2ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2012-07-01 12:58:15 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 30ms (Views: 30.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-01 12:58:15 -0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-07-01 12:58:15 -0500
+Served asset /referral-love.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-07-01 12:58:15 -0500
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/referral_candidates.css?body=1" for 127.0.0.1 at 2012-07-01 12:58:15 -0500
+Served asset /referral_candidates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/codes.css?body=1" for 127.0.0.1 at 2012-07-01 12:58:15 -0500
+Served asset /codes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-07-01 12:58:15 -0500
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-07-01 12:58:15 -0500
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-07-01 12:58:15 -0500
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-01 12:58:15 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-01 12:58:15 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/codes.js?body=1" for 127.0.0.1 at 2012-07-01 12:58:16 -0500
+Served asset /codes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-07-01 12:58:16 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-07-01 12:58:16 -0500
+Served asset /referral_recipients.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-07-01 12:58:16 -0500
+Served asset /sessions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-07-01 12:58:16 -0500
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-07-01 12:58:16 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-01 12:58:16 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2012-07-01 12:58:47 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (4.0ms)
+Compiled referral-love.css  (0ms)  (pid 11496)
+Compiled application.css  (13ms)  (pid 11496)
+Completed 200 OK in 233ms (Views: 233.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-01 12:58:48 -0500
+Served asset /application.css - 304 Not Modified (126ms)
+
+
+Started GET "/assets/codes.css?body=1" for 127.0.0.1 at 2012-07-01 12:58:48 -0500
+Served asset /codes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.css?body=1" for 127.0.0.1 at 2012-07-01 12:58:48 -0500
+Served asset /referral_candidates.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-07-01 12:58:48 -0500
+Served asset /referral-love.css - 200 OK (100ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-07-01 12:58:48 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-07-01 12:58:48 -0500
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-07-01 12:58:48 -0500
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-07-01 12:58:48 -0500
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-01 12:58:49 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-01 12:58:49 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/codes.js?body=1" for 127.0.0.1 at 2012-07-01 12:58:49 -0500
+Served asset /codes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-07-01 12:58:49 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-07-01 12:58:49 -0500
+Served asset /referral_recipients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-07-01 12:58:49 -0500
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-07-01 12:58:49 -0500
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-07-01 12:58:49 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-01 12:58:49 -0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/teaserbg.jpg" for 127.0.0.1 at 2012-07-01 12:58:50 -0500
+Served asset /teaserbg.jpg - 304 Not Modified (3ms)
+
+
+Started GET "/assets/small_logotype.jpg" for 127.0.0.1 at 2012-07-01 12:58:50 -0500
+Served asset /small_logotype.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2012-07-01 12:58:57 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (3.0ms)
+Compiled referral-love.css  (0ms)  (pid 11496)
+Compiled application.css  (11ms)  (pid 11496)
+Completed 200 OK in 221ms (Views: 221.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/codes.css?body=1" for 127.0.0.1 at 2012-07-01 12:58:58 -0500
+Served asset /codes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-07-01 12:58:58 -0500
+Served asset /referral-love.css - 200 OK (100ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-07-01 12:58:58 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-01 12:58:58 -0500
+Served asset /application.css - 304 Not Modified (119ms)
+
+
+Started GET "/assets/referral_candidates.css?body=1" for 127.0.0.1 at 2012-07-01 12:58:58 -0500
+Served asset /referral_candidates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-07-01 12:58:58 -0500
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-07-01 12:58:58 -0500
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-07-01 12:58:58 -0500
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-01 12:58:58 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-01 12:58:59 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/codes.js?body=1" for 127.0.0.1 at 2012-07-01 12:58:59 -0500
+Served asset /codes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-07-01 12:58:59 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-07-01 12:58:59 -0500
+Served asset /referral_recipients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-07-01 12:58:59 -0500
+Served asset /sessions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-07-01 12:58:59 -0500
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-07-01 12:58:59 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-01 12:58:59 -0500
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/small_logotype.jpg" for 127.0.0.1 at 2012-07-01 12:58:59 -0500
+Served asset /small_logotype.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/teaserbg.jpg" for 127.0.0.1 at 2012-07-01 12:58:59 -0500
+Served asset /teaserbg.jpg - 304 Not Modified (2ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2012-07-01 12:59:11 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (3.0ms)
+Compiled referral-love.css  (0ms)  (pid 11496)
+Compiled application.css  (8ms)  (pid 11496)
+Completed 200 OK in 263ms (Views: 262.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/codes.css?body=1" for 127.0.0.1 at 2012-07-01 12:59:12 -0500
+Served asset /codes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.css?body=1" for 127.0.0.1 at 2012-07-01 12:59:12 -0500
+Served asset /referral_candidates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-07-01 12:59:12 -0500
+Served asset /referral-love.css - 200 OK (97ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-01 12:59:12 -0500
+Served asset /application.css - 304 Not Modified (128ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-07-01 12:59:12 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-07-01 12:59:12 -0500
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-07-01 12:59:12 -0500
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-07-01 12:59:12 -0500
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-01 12:59:12 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-01 12:59:12 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/codes.js?body=1" for 127.0.0.1 at 2012-07-01 12:59:13 -0500
+Served asset /codes.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-07-01 12:59:13 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-07-01 12:59:13 -0500
+Served asset /referral_recipients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-07-01 12:59:13 -0500
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-07-01 12:59:13 -0500
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-07-01 12:59:13 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-01 12:59:13 -0500
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/teaserbg.jpg" for 127.0.0.1 at 2012-07-01 12:59:13 -0500
+Served asset /teaserbg.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/small_logotype.jpg" for 127.0.0.1 at 2012-07-01 12:59:13 -0500
+Served asset /small_logotype.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2012-07-01 12:59:22 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (2.0ms)
+Compiled referral-love.css  (1ms)  (pid 11496)
+Compiled application.css  (8ms)  (pid 11496)
+Completed 200 OK in 184ms (Views: 184.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-07-01 12:59:22 -0500
+Served asset /referral-love.css - 200 OK (77ms)
+
+
+Started GET "/assets/referral_candidates.css?body=1" for 127.0.0.1 at 2012-07-01 12:59:22 -0500
+Served asset /referral_candidates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-01 12:59:23 -0500
+Served asset /application.css - 304 Not Modified (86ms)
+
+
+Started GET "/assets/codes.css?body=1" for 127.0.0.1 at 2012-07-01 12:59:23 -0500
+Served asset /codes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-07-01 12:59:23 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-07-01 12:59:23 -0500
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-07-01 12:59:23 -0500
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-07-01 12:59:23 -0500
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-01 12:59:23 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-01 12:59:23 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/codes.js?body=1" for 127.0.0.1 at 2012-07-01 12:59:23 -0500
+Served asset /codes.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-07-01 12:59:23 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-07-01 12:59:23 -0500
+Served asset /referral_recipients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-07-01 12:59:23 -0500
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-07-01 12:59:23 -0500
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-07-01 12:59:24 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-01 12:59:24 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teaserbg.jpg" for 127.0.0.1 at 2012-07-01 12:59:24 -0500
+Served asset /teaserbg.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/small_logotype.jpg" for 127.0.0.1 at 2012-07-01 12:59:24 -0500
+Served asset /small_logotype.jpg - 304 Not Modified (3ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2012-07-01 12:59:31 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (2.0ms)
+Compiled referral-love.css  (1ms)  (pid 11496)
+Compiled application.css  (6ms)  (pid 11496)
+Completed 200 OK in 218ms (Views: 217.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/codes.css?body=1" for 127.0.0.1 at 2012-07-01 12:59:32 -0500
+Served asset /codes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-01 12:59:32 -0500
+Served asset /application.css - 304 Not Modified (82ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-07-01 12:59:32 -0500
+Served asset /referral-love.css - 200 OK (61ms)
+
+
+Started GET "/assets/referral_candidates.css?body=1" for 127.0.0.1 at 2012-07-01 12:59:32 -0500
+Served asset /referral_candidates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-07-01 12:59:32 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-07-01 12:59:32 -0500
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-07-01 12:59:32 -0500
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-07-01 12:59:32 -0500
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-01 12:59:32 -0500
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-01 12:59:32 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/codes.js?body=1" for 127.0.0.1 at 2012-07-01 12:59:33 -0500
+Served asset /codes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-07-01 12:59:33 -0500
+Served asset /referral_candidates.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-07-01 12:59:33 -0500
+Served asset /referral_recipients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-07-01 12:59:33 -0500
+Served asset /sessions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-07-01 12:59:33 -0500
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-07-01 12:59:33 -0500
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-01 12:59:33 -0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/teaserbg.jpg" for 127.0.0.1 at 2012-07-01 12:59:33 -0500
+Served asset /teaserbg.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/small_logotype.jpg" for 127.0.0.1 at 2012-07-01 12:59:33 -0500
+Served asset /small_logotype.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2012-07-01 13:01:04 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 41ms (Views: 41.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/codes.css?body=1" for 127.0.0.1 at 2012-07-01 13:01:05 -0500
+Served asset /codes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-07-01 13:01:05 -0500
+Served asset /referral-love.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-01 13:01:05 -0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-07-01 13:01:05 -0500
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/referral_candidates.css?body=1" for 127.0.0.1 at 2012-07-01 13:01:05 -0500
+Served asset /referral_candidates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-07-01 13:01:05 -0500
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-07-01 13:01:05 -0500
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-07-01 13:01:05 -0500
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-01 13:01:05 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-01 13:01:05 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/codes.js?body=1" for 127.0.0.1 at 2012-07-01 13:01:05 -0500
+Served asset /codes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-07-01 13:01:05 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-07-01 13:01:05 -0500
+Served asset /referral_recipients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-07-01 13:01:05 -0500
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-07-01 13:01:06 -0500
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-07-01 13:01:06 -0500
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-01 13:01:06 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2012-07-01 13:02:32 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (3.0ms)
+Compiled referral-love.css  (0ms)  (pid 11496)
+Compiled application.css  (9ms)  (pid 11496)
+Completed 200 OK in 241ms (Views: 241.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/codes.css?body=1" for 127.0.0.1 at 2012-07-01 13:02:33 -0500
+Served asset /codes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-01 13:02:33 -0500
+Served asset /application.css - 304 Not Modified (120ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-07-01 13:02:33 -0500
+Served asset /referral-love.css - 200 OK (99ms)
+
+
+Started GET "/assets/referral_candidates.css?body=1" for 127.0.0.1 at 2012-07-01 13:02:33 -0500
+Served asset /referral_candidates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-07-01 13:02:33 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-07-01 13:02:33 -0500
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-07-01 13:02:33 -0500
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-07-01 13:02:33 -0500
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-01 13:02:33 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-01 13:02:34 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/codes.js?body=1" for 127.0.0.1 at 2012-07-01 13:02:34 -0500
+Served asset /codes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-07-01 13:02:34 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-07-01 13:02:34 -0500
+Served asset /referral_recipients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-07-01 13:02:34 -0500
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-07-01 13:02:34 -0500
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-07-01 13:02:34 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-01 13:02:34 -0500
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/small_logotype.jpg" for 127.0.0.1 at 2012-07-01 13:02:34 -0500
+Served asset /small_logotype.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/teaserbg.jpg" for 127.0.0.1 at 2012-07-01 13:02:34 -0500
+Served asset /teaserbg.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2012-07-01 13:02:50 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (4.0ms)
+Compiled referral-love.css  (1ms)  (pid 11496)
+Compiled application.css  (9ms)  (pid 11496)
+Completed 200 OK in 192ms (Views: 191.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/codes.css?body=1" for 127.0.0.1 at 2012-07-01 13:02:50 -0500
+Served asset /codes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-01 13:02:51 -0500
+Served asset /application.css - 304 Not Modified (114ms)
+
+
+Started GET "/assets/referral_candidates.css?body=1" for 127.0.0.1 at 2012-07-01 13:02:51 -0500
+Served asset /referral_candidates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral-love.css?body=1" for 127.0.0.1 at 2012-07-01 13:02:51 -0500
+Served asset /referral-love.css - 200 OK (102ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-07-01 13:02:51 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-07-01 13:02:51 -0500
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-07-01 13:02:51 -0500
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-07-01 13:02:51 -0500
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-01 13:02:51 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-01 13:02:51 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/codes.js?body=1" for 127.0.0.1 at 2012-07-01 13:02:51 -0500
+Served asset /codes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_candidates.js?body=1" for 127.0.0.1 at 2012-07-01 13:02:51 -0500
+Served asset /referral_candidates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referral_recipients.js?body=1" for 127.0.0.1 at 2012-07-01 13:02:52 -0500
+Served asset /referral_recipients.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-07-01 13:02:52 -0500
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-07-01 13:02:52 -0500
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-07-01 13:02:52 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-01 13:02:52 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teaserbg.jpg" for 127.0.0.1 at 2012-07-01 13:02:52 -0500
+Served asset /teaserbg.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/small_logotype.jpg" for 127.0.0.1 at 2012-07-01 13:02:52 -0500
+Served asset /small_logotype.jpg - 304 Not Modified (0ms)

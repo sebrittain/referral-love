@@ -5,7 +5,18 @@
       <div id="image"></div>
       <div class="box">
         <h2>Login</h2>
-        <p></p>
+        <p><div class = "form">
+	 
+	      <%= f.label :name %>
+	      <%= f.text_field :name %><br />
+	      <br></br>
+	      <%= f.label :password %>
+	      <%= f.password_field :password %><br />
+	      <br></br>
+	      <%= f.submit "Sign in", class: "btn btn-large btn-primary" %>
+	    <% end %>
+	<p>New user? <%= link_to "Sign up now!", signup_path %></p>
+	</div></p>
       </div>
     </div>
   </div>
@@ -14,15 +25,6 @@
 		</div>
 	</div>
 
-<div class = "center_div">
-	<div class = "form">
-	 <br /><br />
-	      <%= f.label :name %>
-	      <%= f.text_field :name %><br />
-	      <%= f.label :password %>
-	      <%= f.password_field :password %><br />
-	      <%= f.submit "Sign in", class: "btn btn-large btn-primary" %>
-	    <% end %>
-	<p>New user? <%= link_to "Sign up now!", signup_path %></p>
-	</div>
+<br></br><br></br><br></br><br></br><br></br><br></br>
+	
 </div>

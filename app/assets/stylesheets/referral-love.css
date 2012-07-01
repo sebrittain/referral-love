@@ -29,9 +29,9 @@
     #menu .active a { border-bottom: 2px solid #C70012; color: #9D2900;}
  
 #teaser { clear: both; height: 259px; background: #fff url("/assets/teaserbg.jpg") repeat-x; }
-  .box { float: left; padding: 66px 0 0; width: 480px; color: #C7E3EE; }
-  /*#image { float: right; width: 388px; position: relative; top: 16px; background: url("/assets/logotype.jpg") no-repeat top right; height: 258px; }
-  */
+  .box { float: left; padding: 66px 0 0; width: 480px; color: #C7E3EE; top: -300; }
+  .box2 { float: right; padding: 66px 0 0; width: 480px; color: #C7E3EE; position: relative; top: -250px; height: 258px; }
+  
 
   .nav {
   width: 100%;
@@ -62,16 +62,21 @@
 .container
 {
 text-align:center;
+
 }
 
 .center_div
 {
+
 border:1px solid gray;
+background-color: #ffffff;
+opacity:0.8;
+filter:alpha(opacity=60); /* For IE8 and earlier */
 margin-left:auto;
 margin-right:auto;
 margin-top: -200px;
 width:50%;
-background-image:url("/assets/divbox.jpg");
+
 text-align:left;
 padding:8px;
 }
@@ -81,7 +86,7 @@ padding:8px;
   
 .col { float: left; width: 276px; margin: 0 30px 16px 0; }
   .last { float: right; margin: 0; }
-  .info { border: 1px solid #e0e0e0; background: #f4f4f4; padding: 7px; }
+  .info { border: 1px solid #e0e0e0; background: #B3B3B3; padding: 7px; }
 
 #footer { background-position: bottom; clear: both; width: 900px; margin: 0 auto; padding: 15px; border-top: 1px solid #e0e0e0; background: #fff url("/assets/small_logotype.jpg") no-repeat right 13px; } 
   #footer .right { float: right; margin: 0 55px 0 0; }
