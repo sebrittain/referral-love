@@ -1,7 +1,7 @@
 <% @include_jquery = true %>
 
 <body>
-<h1>"Sign up" </h1>
+<h1>Sign up</h1>
 <%yield%>
 <%= form_for(@user) do |f| %>
 <div class = "form">
@@ -35,6 +35,7 @@
 
   <p><%= f.submit "Sign up"%></p>
 
+</div>
 <% end %>
 
 <br/>

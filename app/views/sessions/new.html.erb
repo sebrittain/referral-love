@@ -1,0 +1,28 @@
+<%= form_for(:session, url: sessions_path) do |f| %>
+
+  <div id="teaser">
+    <div class="wrap">
+      <div id="image"></div>
+      <div class="box">
+        <h2>Login</h2>
+        <p></p>
+      </div>
+    </div>
+  </div>
+  	<div id="bar">
+		<div class="wrap">
+		</div>
+	</div>
+
+<div class = "center_div">
+	<div class = "form">
+	 <br /><br />
+	      <%= f.label :name %>
+	      <%= f.text_field :name %><br />
+	      <%= f.label :password %>
+	      <%= f.password_field :password %><br />
+	      <%= f.submit "Sign in", class: "btn btn-large btn-primary" %>
+	    <% end %>
+	<p>New user? <%= link_to "Sign up now!", signup_path %></p>
+	</div>
+</div>
