@@ -1,0 +1,30 @@
+<% @include_jquery = true %>
+<h1>"Log In" </h1>
+<body>
+<%yield%>
+<%= form_for(@user) do |f| %>
+<div class = "form">
+
+
+ 
+
+  <p><b>Email</b><br/>
+  <%= f.email_field :email %></p>
+  <p><b>Password</b><br/>
+  <%= f.password_field :password %></p>
+
+
+
+
+  <%= check_box_tag(:agreement_checkbox) %> 
+  Remember Me
+
+  <p><%= f.submit "Log In"%></p>
+
+<% end %>
+
+<br/>
+
+
+
+<% end %>
