@@ -13,8 +13,10 @@ class ReferralRecipientsController < ApplicationController
   # GET /referral_recipients/1
   # GET /referral_recipients/1.json
   def show
-    @referral_recipient = ReferralRecipient.find(params[:id])
-
+    @referral_recipient = ReferralCandidate.where(:website => "Groupon").order("times_used").find(:first)
+    @referral_recipient.times_used = (@referral_recipient.times_used.to_i + 1).to_s
+    @referral_recipient.save
+    #@referral_recipients = ReferralRecipient.find(params[:id])
     respond_to do |format|
       format.html # show.html.erb
       format.json { render json: @referral_recipient }
