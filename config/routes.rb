@@ -1,4 +1,6 @@
 ReferralLove::Application.routes.draw do
+  get "users/new"
+
   resources :referral_recipients
 
   resources :referral_candidates

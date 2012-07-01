@@ -13927,3 +13927,4 @@ AbstractController::ActionNotFound (The action 'index' could not be found for Us
 
 
   Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (1.0ms)
+Connecting to database specified by database.yml
