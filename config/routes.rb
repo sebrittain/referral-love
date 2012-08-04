@@ -1,4 +1,10 @@
 ReferralLove::Application.routes.draw do
+  root :to => 'static_pages#home'
+
+  devise_scope :user do match "/signup" => "devise/registrations#new" end
+  devise_scope :user do match "/signin" => "devise/sessions#new" end
+  devise_scope :user do match "/forgot_pass" => "devise/passwords#new" end
+
   devise_for :users
 
   # The priority is based upon order of creation:
