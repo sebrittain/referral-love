@@ -1,0 +1,26 @@
+development:
+  adapter: postgresql
+  encoding: utf8
+  database: referral-love_development
+  pool: 5
+  username: postgres
+  password: root
+
+test: &TEST
+  adapter: postgresql
+  encoding: utf8
+  database: referral-love_test
+  pool: 5
+  username: postgres
+  password: root
+
+production:
+  adapter: postgresql
+  encoding: utf8
+  database: referral-love_production
+  pool: 5
+  username: postgres
+  password: root
+
+cucumber:
+  <<: *TEST
